@@ -1,0 +1,60 @@
+/**
+* Branding colors
+*/
+/**
+* Media Queries
+*/
+:export {
+  primary: #2A6030;
+  secondary: #ffff;
+}
+
+/**
+* Size btns
+*/
+/**
+* Branding colors
+*/
+/**
+* Media Queries
+*/
+:export {
+  primary: #2A6030;
+  secondary: #ffff;
+}
+
+/**
+* Size btns
+*/
+/**
+* Mixins : responsive design
+*/
+/**
+* Branding colors
+*/
+/**
+* Media Queries
+*/
+:export {
+  primary: #2A6030;
+  secondary: #ffff;
+}
+
+/**
+* Size btns
+*/
+/**
+* Generals classes
+*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=App.css.map */

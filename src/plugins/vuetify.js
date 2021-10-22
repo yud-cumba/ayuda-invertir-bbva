@@ -11,9 +11,9 @@ export default new Vuetify({
         primary: '#252A4D',
         secondary: '#3771B2',
         black: '#161A33',
-        teal:  '#00E291',
+        teal: '#00E291',
         red: '#F75757',
-        yellow: '#DED95F'
+        yellow: '#DED95F',
       },
       dark: {
         primary: '#3771B2',

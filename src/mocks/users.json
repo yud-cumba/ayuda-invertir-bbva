@@ -5,5 +5,20 @@
         "lastname": "Cumba Tinipuclla",
         "doc": "75587332",
         "created": "2021/01/01"
+    },
+    {
+        "userId": "BBVA002INVERTITR",
+        "name": "Omaira",
+        "lastname": "Palacios",
+        "doc": "75587332",
+        "created": "2021/01/01"
+    }
+    ,
+    {
+        "userId": "BBVA003INVERTITR",
+        "name": "Sandy",
+        "lastname": "Marmolejo",
+        "doc": "75587332",
+        "created": "2021/01/01"
     }
 ]

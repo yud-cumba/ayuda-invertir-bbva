@@ -1,0 +1,17 @@
+[
+    {
+        "accountId":"account0001",
+        "userId": "BBVA001INVERTITR",
+        "amount": 2000
+    },
+    {
+        "accountId":"account0001",
+        "userId": "BBVA001INVERTITR",
+        "amount": 2000
+    },
+    {
+        "accountId":"account0001",
+        "userId": "BBVA003INVERTITR",
+        "amount": 4000
+    }
+]

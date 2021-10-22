@@ -45,10 +45,12 @@
 </template>
 <script>
 export default {
-  data: () => ({
-    drawer: false,
-    group: null,
-  }),
+  data() {
+    return {
+      drawer: false,
+      group: null,
+    }
+  },
   watch: {
     group() {
       this.drawer = false;

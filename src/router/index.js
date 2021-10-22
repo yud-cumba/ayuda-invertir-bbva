@@ -5,6 +5,7 @@ Vue.use(VueRouter);
 
 const routerOptions = [
   { path: '/', name: 'Home' },
+  { path: '/newstops', name: 'NewsTops' },
   { path: '/copiers', name: 'Copiers' },
   // { path: '*', name: 'NotFound' },
 ];

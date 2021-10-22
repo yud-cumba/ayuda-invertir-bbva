@@ -4,9 +4,9 @@
 
 <script>
 export default {
-  name: "Copiers",
+  name: 'Copiers',
   created() {
-    this.$store.commit("SET_LAYOUT", "main-layout");
+    this.$store.commit('SET_LAYOUT', 'main-layout');
   },
 };
 </script>

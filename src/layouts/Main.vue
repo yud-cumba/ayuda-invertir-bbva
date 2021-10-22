@@ -1,3 +1,7 @@
 <template>
-<h2>Hackaton BBVA</h2>
+<v-main>
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
+    </v-main>
 </template>

@@ -5,12 +5,17 @@
         "amount": 2000
     },
     {
-        "accountId":"account0001",
-        "userId": "BBVA001INVERTITR",
-        "amount": 2000
+        "accountId":"account0002",
+        "userId": "BBVA002INVERTITR",
+        "amount": 5000
     },
     {
-        "accountId":"account0001",
+        "accountId":"account0003",
+        "userId": "BBVA002INVERTITR",
+        "amount": 15000
+    },
+    {
+        "accountId":"account0004",
         "userId": "BBVA003INVERTITR",
         "amount": 4000
     }

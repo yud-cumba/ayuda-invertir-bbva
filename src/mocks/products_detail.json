@@ -1,0 +1,14 @@
+[
+    {
+        "productId": "PRODUCT001",
+        "rate": 0.2,
+        "min_capital": 1000,
+        "max_capital": 10000,
+        "min_time": 12,
+        "max_time": 60,
+        "accumulate": 0.15,
+        "exchange_rate": "euro",
+        "created": "2021/01/01",
+        "liquidation_value": "7.95"
+    }
+]

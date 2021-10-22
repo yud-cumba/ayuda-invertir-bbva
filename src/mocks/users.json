@@ -4,7 +4,8 @@
         "name": "Yuditd Araceli",
         "lastname": "Cumba Tinipuclla",
         "doc": "75587332",
-        "created": "2021/01/01"
+        "created": "2021/01/01",
+        "copy_bancking": "PORTFOLIO002"
     },
     {
         "userId": "BBVA002INVERTITR",
@@ -12,10 +13,17 @@
         "lastname": "Palacios",
         "doc": "75587332",
         "created": "2021/01/01"
+    },
+    {
+        "userId": "BBVA003INVERTITR",
+        "name": "Jeff",
+        "lastname": "Felipa",
+        "doc": "45587332",
+        "created": "2021/01/01"
     }
     ,
     {
-        "userId": "BBVA003INVERTITR",
+        "userId": "BBVA004INVERTITR",
         "name": "Sandy",
         "lastname": "Marmolejo",
         "doc": "75587332",

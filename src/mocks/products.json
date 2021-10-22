@@ -1,0 +1,9 @@
+[
+    {
+        "productId": "PRODUCT001",
+        "name": "Fondos de inversión",
+        "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
+        "risk_level": "1",
+        "img": "fondo"
+    }
+]

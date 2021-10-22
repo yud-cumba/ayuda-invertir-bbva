@@ -1,9 +1,37 @@
 [
     {
         "productId": "PRODUCT001",
-        "name": "Fondos de inversión",
+        "name": "Bitcoin",
         "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
         "risk_level": "1",
-        "img": "fondo"
+        "img": "BTC"
+    },
+    {
+        "productId": "PRODUCT002",
+        "name": "Bitcoin",
+        "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
+        "risk_level": "10",
+        "img": "BTC"
+    },
+    {
+        "productId": "PRODUCT003",
+        "name": "Bitcoin",
+        "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
+        "risk_level": "8",
+        "img": "BTC"
+    },
+    {
+        "productId": "PRODUCT004",
+        "name": "Bitcoin",
+        "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
+        "risk_level": "9",
+        "img": "BTC"
+    },
+    {
+        "productId": "PRODUCT005",
+        "name": "Bitcoin",
+        "description": "Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum",
+        "risk_level": "2",
+        "img": "BTC"
     }
 ]

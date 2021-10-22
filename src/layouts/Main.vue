@@ -49,7 +49,7 @@ export default {
     return {
       drawer: false,
       group: null,
-    }
+    };
   },
   watch: {
     group() {

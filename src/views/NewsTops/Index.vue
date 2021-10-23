@@ -1,22 +1,50 @@
 <template>
     <div>
-        <CardWithButton/>
-        <Tops/>
+        <CardLearn/>
+        <v-tabs
+      v-model="tab"
+      class="mt-4 rounded-lg"
+      background-color="primary"
+      dark
+      grow
+    >
+      <v-tab
+        v-for="item in header"
+        :key="item"
+      >
+        {{ item }}
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+      ><Tops/>
+      </v-tab-item>
+       <v-tab-item
+      > <News/>
+      </v-tab-item>
+    </v-tabs-items>
     </div>
 </template>
 
 <script>
-import CardWithButton from '@/components/CardWithButton.vue';
+import CardLearn from '@/components/CardLearn.vue';
 import Tops from './Tops.vue';
+import News from './News.vue';
 
 export default {
   name: 'NewsTops',
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');
   },
+  data: () => ({
+    tab: null,
+    header: ['Coins', 'Noticias'],
+  }),
   components: {
-    CardWithButton,
+    CardLearn,
     Tops,
+    News,
   },
 };
 </script>

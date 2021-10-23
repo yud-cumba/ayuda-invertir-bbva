@@ -23,12 +23,12 @@
 </template>
 
 <script>
-import CardLearn from "@/components/CardLearn.vue";
+import CardLearn from '@/components/CardLearn.vue';
 
 export default {
   components: { CardLearn },
   created() {
-    this.$store.commit("SET_LAYOUT", "main-layout");
+    this.$store.commit('SET_LAYOUT', 'main-layout');
   },
 };
 </script>

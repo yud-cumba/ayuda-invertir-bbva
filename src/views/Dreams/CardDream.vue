@@ -11,10 +11,6 @@
          <p class="caption mx-1 my-1">Tiempo de inversión: {{dream.time}} meses </p>
       </v-list-item-content>
     </v-list-item>
-    <v-btn  class="secondary pa-4 white text-capitalize"
-            dark
-            @click="$router.push({ name: 'Dreams'})"
-                small>Ir por mis sueños</v-btn>
   </v-card>
 </template>
 

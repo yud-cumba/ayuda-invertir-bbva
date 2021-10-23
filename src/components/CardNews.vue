@@ -7,8 +7,7 @@
           cols="12"
         >
           <v-card
-            :color="item.color"
-            dark
+            class="mx-auto rounded-lg card" max-width="325"
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -39,25 +38,21 @@ export default {
   data: () => ({
     items: [
       {
-        color: '#ffff',
         src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
         title: 'Solana have jumped by 40% over the last two days despite increased threat of hackers.',
         artist: 'Foster the People',
       },
       {
-        color: '#ffff',
         src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
         title: 'On August 18: Major stories on Bitcoin, cryptocurrency bill and investing',
         artist: 'Ellie Goulding',
       },
       {
-        color: '#ffff',
         src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
         title: 'Tougher Rules Are Coming For Bitcoin And Other Crypto. Here is What To Know',
         artist: 'Foster the People',
       },
       {
-        color: '#ffff',
         src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
         title: 'Ethereum 2.0 Staking Contract Now Holds the Most Ether',
         artist: 'Ellie Goulding',
@@ -73,12 +68,14 @@ export default {
 <style lang="scss" scoped>
 .text-card {
   font-family: 'Euclid Circular A';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-color: #0B1724
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0B1724
+}
+.card {
+  border: 2px solid #3771B2;
 }
 
 </style>

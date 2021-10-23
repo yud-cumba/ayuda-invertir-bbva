@@ -1,10 +1,10 @@
 <template>
     <div>
-      <v-col>
-          <h1 class="text-top">Top Noticias</h1>
-          <v-img src="../../assets/icon-upgrade.svg" width="50px" alt="icon-upgrade" />
+      <v-row justify="space-around">
+          <h4 class="my-3">Top Noticias</h4>
+              <v-img src="../../assets/icon-upgrade.svg" width="30px" alt="icon-upgrade" />
         <CardNews />
-      </v-col>
+      </v-row>
     </div>
 </template>
 

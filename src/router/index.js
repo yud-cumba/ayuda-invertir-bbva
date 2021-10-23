@@ -10,6 +10,7 @@ const routerOptions = [
   { path: '/copiers/:id', props: true, name: 'CopiersDetails' },
   { path: '/news', name: 'News' },
   { path: '/init', name: 'Init' },
+  { path: '/dreams', name: 'Dreams' },
   // { path: '*', name: 'NotFound' },
 ];
 

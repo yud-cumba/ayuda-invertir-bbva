@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-app-bar height="60" color="white" prominent>
-      <v-btn @click="$router.go(-1)" class="caption secondary--text" icon>
+    <v-app-bar height="60" color="white" class="pa-0 elevation-0" prominent>
+      <v-btn @click="$router.go(-1)" class="caption secondary--text ml-1" icon>
         <v-icon>mdi-chevron-left</v-icon><small>atrás</small>
       </v-btn>
       <v-spacer></v-spacer>

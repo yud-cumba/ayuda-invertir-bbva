@@ -1,6 +1,6 @@
 <template>
           <v-card
-            class="primary white--text pa-2"
+            class="primary white--text pa-2 rounded-lg card"
           >
             <v-card-title class="text-h5 white--text">
               Aprender de los expertos
@@ -28,5 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.card {
+  border: 2px solid #3771B2;
+}
 </style>

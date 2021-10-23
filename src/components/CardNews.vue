@@ -16,7 +16,7 @@
                   v-text="item.title"
                 ></v-card-title>
 
-                <v-card-subtitle v-text="item.artist"></v-card-subtitle>
+                <v-card-subtitle v-text="item.artist" class="text-footer"></v-card-subtitle>
               </div>
 
               <v-avatar
@@ -76,6 +76,16 @@ export default {
 }
 .card {
   border: 2px solid #3771B2;
+}
+.text-footer {
+  font-family: Euclid Circular A;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+color: #0B1724;
+
 }
 
 </style>

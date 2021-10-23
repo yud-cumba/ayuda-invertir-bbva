@@ -1,10 +1,12 @@
 <template>
     <div>
-       <v-row class="d-flex justify-space-around py-4">
-          <h1 class="text-top my-3">Top Noticias</h1>
-           <!-- <v-img src="../../assets/icon-upgrade.svg" width="10px" alt="icon-upgrade" /> -->
+       <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">
+         <v-col><h1 class="text-top mx-2">Top Noticias</h1></v-col>
+           <v-col>
+             <v-img src="../../assets/icon-upgrade.svg" width="30px" alt="icon-upgrade" class="mx-16"/>
+           </v-col>
         </v-row>
-        <CardNews />
+         <CardNews />
     </div>
 </template>
 
@@ -29,6 +31,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 20px;
-color: black;
+color: #0B1724;
 }
 </style>

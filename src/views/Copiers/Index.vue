@@ -1,6 +1,6 @@
 <template>
-  <div>copiers
-      <CardCopiers/>
+  <div>
+    <CardCopiers/>
   </div>
 
 </template>

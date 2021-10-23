@@ -1,10 +1,10 @@
 <template>
     <div>
-        <v-col>
-          <h1 class="text-top">Top Noticias</h1>
-          <v-img src="../../assets/icon-upgrade.svg" width="50px" alt="icon-upgrade" />
+       <v-row class="d-flex justify-space-around py-4">
+          <h1 class="text-top my-3">Top Noticias</h1>
+           <!-- <v-img src="../../assets/icon-upgrade.svg" width="10px" alt="icon-upgrade" /> -->
+        </v-row>
         <CardNews />
-      </v-col>
     </div>
 </template>
 
@@ -23,5 +23,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.text-top {
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: black;
+}
 </style>

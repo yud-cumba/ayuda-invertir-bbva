@@ -11,10 +11,10 @@
 
             <v-card-actions>
               <v-btn
-              class="purple--text mt-1 white pa-4"
-                    outlined
-                    rounded
-                    small>
+                class="purple--text mt-1 white pa-4"
+                outlined
+                rounded
+                small>
                 Conocer
               </v-btn>
             </v-card-actions>

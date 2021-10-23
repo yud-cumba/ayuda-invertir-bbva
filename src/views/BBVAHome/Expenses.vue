@@ -13,7 +13,7 @@
         </div>
       </ReactiveComponent>
     </reactive-base>
-    </div>
+        </div>
 </template>
 
 <script>
@@ -45,5 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.graph{
+  width: 50vw
+}
 </style>

@@ -6,14 +6,16 @@
         <v-container class="pa-0" fluid>
           <router-view></router-view>
         </v-container>
+        <BottomNav />
       </v-card>
     </v-app>
   </div>
 </template>
 <script>
 import NavBarBBVA from '@/components/NavBBVA.vue';
+import BottomNav from '../components/BottomNav.vue';
 
 export default {
-  components: { NavBarBBVA },
+  components: { NavBarBBVA, BottomNav },
 };
 </script>

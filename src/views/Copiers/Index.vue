@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h4 class="mb-2">Tus especialistas de inversión</h4>
     <CardCopier/>
     <ListCopiers/>
   </div>

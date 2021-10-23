@@ -1,14 +1,32 @@
 <template>
-  <v-card  class="mx-auto rounded-lg card" max-width="100%">
+  <v-card class="mx-auto rounded-lg card" max-width="100%">
     <v-list class="d-flex px-2">
-      <v-list-item-avatar class="mx-1 rounded-lg" height="50" width="50" tile color="grey">
+      <v-list-item-avatar
+        class="mx-1 rounded-lg"
+        height="50"
+        width="50"
+        tile
+        color="grey"
+      >
         <v-img cover src="https://randomuser.me/api/portraits/men/47.jpg"></v-img>
       </v-list-item-avatar>
-      <v-list-item-content class="content d-flex flex-column text-center justify-items-center align-items-center">
-       <h5 class="name ma-1">Jeff Madrid</h5>
-       <p class="mx-2 py-1 risk">{{copier.risk_level}}</p>
-       <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{copier.profit}}%</p>
-       <v-btn class="pa-2 caption text-capitalize" color="secondary">Ver</v-btn>
+      <v-list-item-content
+        class="content d-flex flex-column text-center justify-items-center align-items-center"
+      >
+        <h5 class="name ma-1">Jeff Madrid</h5>
+        <p class="mx-2 py-1 risk">{{copier.profit}}</p>
+        <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ copier.profit }}%</p>
+        <v-btn
+          class="pa-2 caption text-capitalize"
+          color="secondary"
+          @click="
+            $router.push({
+              name: 'CopiersDetails',
+              params: { id: copier.copy_bankingId },
+            })
+          "
+          >Ver
+        </v-btn>
       </v-list-item-content>
     </v-list>
   </v-card>
@@ -26,21 +44,20 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  border: 2px solid #3771B2;
+  border: 2px solid #3771b2;
 }
 .risk {
-  border: 2px solid red;
+  border: 2px solid #99eaf5;
   border-radius: 5px;
-  color: red;
+  color: #99eaf5;
   width: 28px;
   font-size: 12px;
 }
 .content {
   height: 40px;
   justify-content: center;
-;
 }
-.name{
+.name {
   width: 50px;
 }
 </style>

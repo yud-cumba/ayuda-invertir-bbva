@@ -1,0 +1,14 @@
+[
+    {
+        "portfolioId": "PORTFOLIO001",
+        "userId": "BBVA001INVERTITR",
+        "products": []
+    },
+    {
+        "portfolioId": "PORTFOLIO002",
+        "userId": "BBVA003INVERTITR",
+        "products": [
+            "PRODUCT001"
+        ]
+    }
+]

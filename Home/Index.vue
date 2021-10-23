@@ -1,9 +1,10 @@
 <template>
-    <h1>HACKATON BBVA</h1>
+<div>
+    <h1>HACKATON BBVA :v</h1>
+</div>
 </template>
 
 <script>
-
 export default {
   name: 'Home',
   async created() {

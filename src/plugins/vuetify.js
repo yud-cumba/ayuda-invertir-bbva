@@ -8,13 +8,20 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: '#2276BB',
-        secondary: '#007a0e',
-        sky: '#D5E6FB',
+        primary: '#252A4D',
+        secondary: '#3771B2',
+        black: '#161A33',
+        teal: '#00E291',
+        red: '#F75757',
+        yellow: '#DED95F',
       },
       dark: {
-        primary: '#2276BB',
-        secondary: '#007a0e',
+        primary: '#252A4D',
+        secondary: '#3771B2',
+        black: '#161A33',
+        teal: '#00E291',
+        red: '#F75757',
+        yellow: '#DED95F',
       },
     },
   },

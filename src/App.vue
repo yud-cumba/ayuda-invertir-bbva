@@ -6,9 +6,10 @@
 import { mapState } from 'vuex';
 import LoginLayout from '@/layouts/Login.vue';
 import MainLayout from '@/layouts/Main.vue';
+import BbvaLayout from '@/layouts/Bbva.vue';
 
 export default {
-  components: { LoginLayout, MainLayout },
+  components: { MainLayout, BbvaLayout, LoginLayout },
   computed: mapState(['layout']),
 };
 </script>

@@ -1,0 +1,17 @@
+[
+    {
+        "profileId": "PROFILE001",
+        "name": "Conservador",
+        "range": [1,2,3]
+    },
+    {
+        "profileId": "PROFILE002",
+        "name": "Moderado",
+        "range": [4,5,6,7]
+    },
+    {
+        "profileId": "PROFILE003",
+        "name": "Decidido",
+        "range": [8,9,10]
+    }
+]

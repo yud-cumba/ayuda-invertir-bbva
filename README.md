@@ -1,4 +1,4 @@
-# ayuda-invertir-bbva
+# HACKATON BBVA
 
 ## Project setup
 ```

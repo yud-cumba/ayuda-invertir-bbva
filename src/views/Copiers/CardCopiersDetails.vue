@@ -1,6 +1,6 @@
 <template>
-  <v-card class="mx-auto rounded-lg card" max-width="100%">
-    <v-list class="d-flex px-2">
+  <v-card class="mx-auto rounded-lg card my-0" max-width="100%">
+    <v-list class="d-flex px-2 py-1">
       <v-list-item-avatar
         class="mx-1 rounded-lg"
         height="50"
@@ -44,7 +44,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  border: 2px solid #3771b2;
+  border: 1px solid #3771b2;
 }
 .risk {
   border: 2px solid #99eaf5;

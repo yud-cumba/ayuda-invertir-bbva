@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-col class="mx-0 px-0" v-for="copybanker in copybankers" :key="copybanker.copy_bankingId">
+  <div class="mt-5">
+    <v-col class="mx-0 px-0 py-1" v-for="copybanker in copybankers" :key="copybanker.copy_bankingId">
       <CardCopiersDetails :copier="copybanker" />
     </v-col>
   </div>

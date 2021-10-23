@@ -1,5 +1,5 @@
 <template>
-  <v-card  class="mx-auto rounded-lg card" max-width="344">
+  <v-card  class="mx-auto rounded-lg card" max-width="100%">
     <v-list class="d-flex px-2">
       <v-list-item-avatar class="mx-1 rounded-sm" height="50" width="50" tile color="grey">
         <v-img cover src="https://randomuser.me/api/portraits/men/47.jpg"></v-img>

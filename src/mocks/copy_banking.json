@@ -4,7 +4,7 @@
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "400",
-        "profit": 75.6,
+        "profit": "C",
         "risk_level": 8
     },
     {
@@ -12,7 +12,7 @@
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "200",
-        "profit": 75.2,
+        "profit": "C",
         "risk_level": 6
     },
     {
@@ -20,7 +20,7 @@
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "100",
-        "profit": 75.4,
+        "profit": "C",
         "risk_level": 5
     },
     {
@@ -28,7 +28,7 @@
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "340",
-        "profit": 74.6,
+        "profit": "M",
         "risk_level": 4
     }
 ]

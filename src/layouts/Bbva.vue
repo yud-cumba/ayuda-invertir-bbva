@@ -2,21 +2,20 @@
   <div id="app">
     <v-app id="inspire">
       <v-card class="mx-auto overflow-hidden" height="100%" width="100%">
-        <NavBar/>
-        <v-container fluid>
+        <NavBarBBVA/>
+        <v-container class="pa-0 my-12" fluid>
           <router-view></router-view>
         </v-container>
+        <BottomNav />
       </v-card>
     </v-app>
   </div>
 </template>
 <script>
-import NavBar from '../components/NavBar.vue';
+import NavBarBBVA from '@/components/NavBBVA.vue';
+import BottomNav from '../components/BottomNav.vue';
 
 export default {
-  components: { NavBar },
-  created() {
-    console.log(process.env);
-  },
+  components: { NavBarBBVA, BottomNav },
 };
 </script>

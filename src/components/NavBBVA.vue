@@ -1,14 +1,14 @@
 <template>
   <div>
-    <v-app-bar height="60" color="white" class="pa-0 elevation-0" prominent>
-      <v-btn @click="$router.go(-1)" class="caption secondary--text ml-1" icon>
-        <v-icon>mdi-chevron-left</v-icon><small>atrás</small>
+    <v-app-bar height="60" color="secondary" class="pa-0 elevation-0 secondary" prominent fixed>
+      <v-btn @click="$router.go(-1)" class="caption white--text ml-1" icon>
+        <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <h6 class="mt-3 font-weight-regular">Titulo</h6>
+      <h6 class="mt-3 font-weight-regular white--text">Mi Día a día</h6>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
-        class="secondary--text"
+        class="white--text"
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
     </v-app-bar>

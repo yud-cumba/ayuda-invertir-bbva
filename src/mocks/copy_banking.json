@@ -5,7 +5,7 @@
         "copy_bankingId": "COPYBANCKING001",
         "follower": "400",
         "profit": 75.6,
-        "risk_level": 8
+        "risk_level": "C"
     },
     {
         "userId": "BBVA002INVERTITR",
@@ -13,7 +13,7 @@
         "copy_bankingId": "COPYBANCKING001",
         "follower": "200",
         "profit": 75.2,
-        "risk_level": 6
+        "risk_level": "C"
     },
     {
         "userId": "BBVA003INVERTITR",
@@ -21,7 +21,7 @@
         "copy_bankingId": "COPYBANCKING001",
         "follower": "100",
         "profit": 75.4,
-        "risk_level": 5
+        "risk_level": "C"
     },
     {
         "userId": "BBVA004INVERTITR",
@@ -29,6 +29,6 @@
         "copy_bankingId": "COPYBANCKING001",
         "follower": "340",
         "profit": 74.6,
-        "risk_level": 4
+        "risk_level": "C"
     }
 ]

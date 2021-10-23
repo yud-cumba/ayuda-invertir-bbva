@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 const routerOptions = [
   { path: '/', name: 'Login' },
   { path: '/newstops', name: 'NewsTops' },
+  { path: '/recommend', name: 'Recommend' },
   { path: '/copiers', name: 'Copiers' },
   { path: '/copiers/:id', props: true, name: 'CopiersDetails' },
   { path: '/news', name: 'News' },

@@ -1,15 +1,39 @@
 <template>
-    <div>
+  <div>
+    <v-app-bar height="60" color="white" prominent>
+      <v-btn class="caption secondary--text" icon> <v-icon>mdi-chevron-left</v-icon><small>atrás</small> </v-btn>
+      <v-spacer></v-spacer>
+      <h6 class="mt-3 font-weight-regular">Titulo</h6>
+      <v-spacer></v-spacer>
+      <v-app-bar-nav-icon class="secondary--text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
 
-    </div>
+    <v-navigation-drawer v-model="drawer" absolute right temporary>
+      <v-list nav dense>
+        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+          <v-list-item>
+            <v-list-item-title>Foo</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Bar</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Fizz</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>Buzz</v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

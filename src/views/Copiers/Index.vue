@@ -1,17 +1,20 @@
 <template>
   <div>
-    <CardCopiers/>
+    <CardCopier/>
+    <ListCopiers/>
   </div>
 
 </template>
 
 <script>
-import CardCopiers from './CardCopiers.vue';
+import CardCopier from '@/components/CardCopier.vue';
+import ListCopiers from './ListCopiers.vue';
 
 export default {
   name: 'Copiers',
   components: {
-    CardCopiers,
+    CardCopier,
+    ListCopiers,
   },
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');

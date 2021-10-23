@@ -28,5 +28,12 @@
         "lastname": "Marmolejo",
         "doc": "75587332",
         "created": "2021/01/01"
+    },
+    {
+        "userId": "BBVA005INVERTITR",
+        "name": "Andrés",
+        "lastname": "Mendez",
+        "doc": "45587332",
+        "created": "2021/01/01"
     }
 ]

@@ -39,7 +39,7 @@ export default {
     items: [
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-        title: 'Solana have jumped by 40% over the last two days despite increased threat of hackers.',
+        title: 'Solana have jumped by 40% over the last two days despite increased threat of hacker.',
         artist: 'DeFi - Ahora',
       },
       {
@@ -54,7 +54,7 @@ export default {
       },
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-        title: 'Ethereum 2.0 Staking Contract Now Holds the Most Ether',
+        title: 'Ethereum 2.0 Staking Contract Now Holds the Ether',
         artist: 'Decrypt - hace 37 min',
         // src: '../assets/new-one.png',
         sizes: '192x192',

@@ -1,8 +1,29 @@
 <template>
     <div>
         <CardLearn/>
-        <Tops/>
-        <News/>
+        <v-tabs
+      v-model="tab"
+      class="mt-4 rounded-lg"
+      background-color="primary"
+      dark
+      grow
+    >
+      <v-tab
+        v-for="item in header"
+        :key="item"
+      >
+        {{ item }}
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+      ><Tops/>
+      </v-tab-item>
+       <v-tab-item
+      > <News/>
+      </v-tab-item>
+    </v-tabs-items>
     </div>
 </template>
 
@@ -16,6 +37,10 @@ export default {
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');
   },
+  data: () => ({
+    tab: null,
+    header: ['Coins', 'Noticias'],
+  }),
   components: {
     CardLearn,
     Tops,

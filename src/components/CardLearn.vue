@@ -11,7 +11,7 @@
 
             <v-card-actions>
               <v-btn
-              class="white--text mt-2"
+              class="purple--text mt-1 white pa-4"
                     outlined
                     rounded
                     small>

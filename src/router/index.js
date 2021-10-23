@@ -13,7 +13,7 @@ const routerOptions = [
   { path: '/init', name: 'Init' },
   { path: '/dreams', name: 'Dreams' },
   { path: '/BBVAHome', name: 'BBVAHome' },
-  // { path: '*', name: 'NotFound' },
+  { path: '*', name: 'NotFound' },
 ];
 
 const routes = routerOptions.map((r) => ({

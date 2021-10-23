@@ -10,7 +10,7 @@
         color="amber"
         height="15"
         ></v-progress-linear>
-         <h4 class="white--text mt-4">Gastos $1032.34</h4>
+         <h4 class="white--text mt-4">Gastos $182.34</h4>
          <v-progress-linear
       v-model="power2"
       color="cyan"

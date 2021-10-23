@@ -2,7 +2,7 @@
          <v-bottom-navigation
         app
         value="value"
-        height="80"
+        height="50"
         class="d-flex justify-space-around align-center"
       >
         <v-row class="d-flex">
@@ -13,9 +13,7 @@
             class="text-center d-flex flex-column justify-center align-center"
             @click="
             selected = index,
-              $router.push({
-                name: view.name,
-              })
+              $router.push(view.name)
             "
           >
             <v-icon class="icon rounded-circle pa-2" color="secondary">{{
@@ -33,23 +31,23 @@ export default {
     views: [
       {
         icon: 'mdi-home',
-        name: 'Home',
+        name: '/BBVAHome',
       },
       {
         icon: 'mdi-piggy-bank',
-        name: 'MyAdvances',
+        name: '/ahorros',
       },
       {
         icon: 'mdi-plus-circle',
-        name: 'MyProfile',
+        name: '/add',
       },
       {
-        icon: 'mdi-pig',
-        name: 'MyAdvances',
+        icon: 'mdi-bullhorn',
+        name: '/notifications',
       },
       {
         icon: 'mdi-star-circle',
-        name: 'MyProfile',
+        name: '/favorites',
       },
     ],
   }),

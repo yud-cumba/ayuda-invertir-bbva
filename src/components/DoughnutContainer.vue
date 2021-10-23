@@ -1,6 +1,7 @@
 <template>
-<div class="px-5">
+<div class="pb-7" >
   <doughnut
+    height="200"
     v-if="data.labels.length > 0"
     :names="data.labels"
     :chartdata="[{
@@ -34,7 +35,10 @@ export default {
           },
         );
       }
-      return { labels, values };
+      return {
+        labels,
+        values,
+      };
     },
   },
   components: {
@@ -42,3 +46,8 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.chartjs-render-monitor{
+  height: 200 !important;
+}
+</style>

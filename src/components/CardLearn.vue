@@ -10,13 +10,10 @@
               En BBVA aprendemos y crecemos contigo ven a conocer con nosotros</v-card-subtitle>
 
             <v-card-actions>
-              <v-btn
-                class="purple--text white pa-3 text-capitalize"
-                outlined
-                rounded
-                small>
-                Conocer
-              </v-btn>
+              <v-btn  class="secondary text-capitalize" width="200"
+            dark
+            @click="$router.push({ name: 'Dreams'})"
+                small>Conocer</v-btn>
             </v-card-actions>
           </v-card>
 </template>

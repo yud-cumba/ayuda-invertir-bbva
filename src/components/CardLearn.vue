@@ -1,8 +1,8 @@
 <template>
           <v-card
-            class="primary white--text pa-2"
+            class="primary white--text pa-1"
           >
-            <v-card-title class="text-h5 white--text">
+            <v-card-title class="white--text">
               Aprender de los expertos
             </v-card-title>
 
@@ -11,11 +11,11 @@
 
             <v-card-actions>
               <v-btn
-                class="purple--text mt-1 white pa-4"
+                class="purple--text white pa-2 text-caption"
                 outlined
                 rounded
                 small>
-                Conocer
+                Conocer :v
               </v-btn>
             </v-card-actions>
           </v-card>

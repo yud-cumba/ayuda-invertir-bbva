@@ -41,7 +41,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    drawer: false,
+    group: null,
+  }),
+  watch: {
+    group() {
+      this.drawer = false;
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

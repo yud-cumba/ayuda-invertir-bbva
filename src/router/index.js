@@ -7,6 +7,7 @@ const routerOptions = [
   { path: '/', name: 'Home' },
   { path: '/newstops', name: 'NewsTops' },
   { path: '/copiers', name: 'Copiers' },
+  { path: '/news', name: 'News' },
   // { path: '*', name: 'NotFound' },
 ];
 

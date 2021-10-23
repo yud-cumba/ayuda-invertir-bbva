@@ -7,7 +7,7 @@
       <v-list-item-content class="content d-flex flex-column text-center justify-items-center align-items-center">
        <h5 class="name ma-1">Jeff Madrid</h5>
        <p class="mx-2 py-1 risk">{{copier.risk_level}}</p>
-       <p class="text teal--text subt mx-1 my-0 py-0">{{copier.profit}}</p>
+       <p class="text teal--text subt mx-1 my-0 py-0">{{copier.profit}}%</p>
        <v-btn class="pa-2 caption text-capitalize mx-1" color="secondary">Ver</v-btn>
       </v-list-item-content>
     </v-list>

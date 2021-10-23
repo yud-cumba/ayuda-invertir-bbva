@@ -3,24 +3,41 @@
             class="primary white--text pa-2 rounded-lg "
           >
             <v-card-title class="white--text ma-0 py-0 px-3">
-              Aprender de los expertos
+              {{title}}
             </v-card-title>
 
             <v-card-subtitle class="white--text ma-0 py-0 px-3">
-              En BBVA aprendemos y crecemos contigo ven a conocer con nosotros</v-card-subtitle>
+             {{detail}}</v-card-subtitle>
 
             <v-card-actions>
               <v-btn  class="secondary text-capitalize" width="200"
             dark
-            @click="$router.push({ name: 'Dreams'})"
-                small>Conocer</v-btn>
+            @click="action"
+                small>{{btnText}}</v-btn>
             </v-card-actions>
           </v-card>
 </template>
 
 <script>
 export default {
-
+  props: {
+    title: {
+      type: String,
+      default: 'Aprender de los expertos',
+    },
+    detail: {
+      type: String,
+      default: 'En BBVA aprendemos y crecemos contigo ven a conocer con nosotros',
+    },
+    btnText: {
+      type: String,
+      default: 'Conocer',
+    },
+    action: {
+      type: Function,
+      default: null,
+    },
+  },
 };
 </script>
 

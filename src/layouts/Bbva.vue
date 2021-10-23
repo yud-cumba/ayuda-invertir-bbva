@@ -3,7 +3,7 @@
     <v-app id="inspire">
       <v-card class="mx-auto overflow-hidden" height="100%" width="100%">
         <NavBarBBVA/>
-        <v-container class="pa-0 mb-12" fluid>
+        <v-container class="pa-0 my-12" fluid>
           <router-view></router-view>
         </v-container>
         <BottomNav />

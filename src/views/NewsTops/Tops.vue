@@ -1,6 +1,6 @@
 <template>
     <div>
-      <v-col v-for="product in products" :key="product.productId">
+      <v-col class="py-2 px-0" v-for="product in products" :key="product.productId">
         <CardProduct :product="product"/>
       </v-col>
     </div>

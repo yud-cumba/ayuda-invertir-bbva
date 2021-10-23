@@ -2,9 +2,10 @@
     <div>
       <h4 class="my-3">Performance</h4>
       <v-select
+          class="my-0 py-0 rounded-xl"
           :items="items"
           :value="items[0]"
-          color="indigo darken-2 my-0 py-0 rounded-xl"
+          color="indigo darken-2"
           solo
           dense
           outlined

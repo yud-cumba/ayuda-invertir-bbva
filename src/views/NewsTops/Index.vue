@@ -1,12 +1,13 @@
 <template>
     <div>
         <CardWithButton/>
-        NEWS
+        <Tops/>
     </div>
 </template>
 
 <script>
 import CardWithButton from '@/components/CardWithButton.vue';
+import Tops from './Tops.vue';
 
 export default {
   name: 'NewsTops',
@@ -15,6 +16,7 @@ export default {
   },
   components: {
     CardWithButton,
+    Tops,
   },
 };
 </script>

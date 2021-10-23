@@ -40,22 +40,22 @@ export default {
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
         title: 'Solana have jumped by 40% over the last two days despite increased threat of hackers.',
-        artist: 'Foster the People',
+        artist: 'DeFi - Ahora',
       },
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
         title: 'On August 18: Major stories on Bitcoin, cryptocurrency bill and investing',
-        artist: 'Ellie Goulding',
+        artist: 'Decrypt - hace 37 min',
       },
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
         title: 'Tougher Rules Are Coming For Bitcoin And Other Crypto. Here is What To Know',
-        artist: 'Foster the People',
+        artist: 'Crpto Law - hace 37 min',
       },
       {
         src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
         title: 'Ethereum 2.0 Staking Contract Now Holds the Most Ether',
-        artist: 'Ellie Goulding',
+        artist: 'Decrypt - hace 37 min',
         // src: '../assets/new-one.png',
         sizes: '192x192',
         type: 'image/png',

@@ -1,10 +1,10 @@
 <template>
     <div>
-      <v-row justify="space-around">
-          <h4 class="my-3">Top Noticias</h4>
-              <v-img src="../../assets/icon-upgrade.svg" width="30px" alt="icon-upgrade" />
+       <v-row class="d-flex justify-space-around py-4">
+          <h1 class="text-top">Top Noticias</h1>
+           <!-- <v-img src="../../assets/icon-upgrade.svg" width="10px" alt="icon-upgrade" /> -->
+        </v-row>
         <CardNews />
-      </v-row>
     </div>
 </template>
 
@@ -12,8 +12,10 @@
 import CardNews from '@/components/CardNews.vue';
 
 export default {
-  data: () => ({
-  }),
+  name: 'News',
+  created() {
+    this.$store.commit('SET_LAYOUT', 'main-layout');
+  },
   components: {
     CardNews,
   },
@@ -27,6 +29,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 20px;
-color: #0B1724;
+color: black;
 }
 </style>

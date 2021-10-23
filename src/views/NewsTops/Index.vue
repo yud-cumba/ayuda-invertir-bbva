@@ -1,13 +1,15 @@
 <template>
     <div>
-        <CardWithButton/>
+        <CardLearn/>
         <Tops/>
+        <News/>
     </div>
 </template>
 
 <script>
-import CardWithButton from '@/components/CardWithButton.vue';
+import CardLearn from '@/components/CardLearn.vue';
 import Tops from './Tops.vue';
+import News from './News.vue';
 
 export default {
   name: 'NewsTops',
@@ -15,8 +17,9 @@ export default {
     this.$store.commit('SET_LAYOUT', 'main-layout');
   },
   components: {
-    CardWithButton,
+    CardLearn,
     Tops,
+    News,
   },
 };
 </script>

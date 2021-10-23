@@ -1,10 +1,10 @@
 <template>
-  <v-card color="primary" class="mx-auto pa-1 rounded-lg" max-width="344">
+  <v-card color="primary" class="mx-auto pa-1 rounded-lg" max-width="100%">
     <v-list-item three-line>
-        <v-list-item-avatar height="100" width="145" tile color="grey">
+        <v-list-item-avatar class="avatar" height="100" width="125" tile color="grey">
           <v-img cover src="https://randomuser.me/api/portraits/women/76.jpg"></v-img>
         </v-list-item-avatar>
-      <v-list-item-content class="mx-1 px-1">
+      <v-list-item-content class="mx-1">
        <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">
           <h3 class="font-weight-regular white--text mb-1">Sandy</h3>
           <small class="mt-1 font-weight-thin mx-2 white--text">Sevilla</small>
@@ -41,5 +41,8 @@ export default {
 }
 .text {
   height: 5px;
+}
+.avatar {
+  border-radius: 5px !important;
 }
 </style>

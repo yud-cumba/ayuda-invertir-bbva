@@ -1,14 +1,16 @@
 <template>
     <div>
         <Resume/>
+        <Expenses/>
     </div>
 </template>
 
 <script>
+import Expenses from './Expenses.vue';
 import Resume from './Resume.vue';
 
 export default {
-  components: { Resume },
+  components: { Resume, Expenses },
   created() {
     this.$store.commit('SET_LAYOUT', 'bbva-layout');
   },

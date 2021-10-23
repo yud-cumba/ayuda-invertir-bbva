@@ -1,20 +1,23 @@
 <template>
-  <v-card class="mx-auto" max-width="344" outlined>
+  <v-card color="primary" class="mx-auto pa-1 rounded-lg" max-width="344">
     <v-list-item three-line>
-      <v-list-item-content>
-        <div class="text-overline mb-4">OVERLINE</div>
-        <v-list-item-title class="text-h5 mb-1"> Headline 5 </v-list-item-title>
-        <v-list-item-subtitle
-          >Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle
-        >
+        <v-list-item-avatar height="100" width="145" tile color="grey">
+          <v-img cover src="https://randomuser.me/api/portraits/women/76.jpg"></v-img>
+        </v-list-item-avatar>
+      <v-list-item-content class="mx-1 px-1">
+       <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">
+          <h3 class="font-weight-regular white--text mb-1">Sandy</h3>
+          <small class="mt-1 font-weight-thin mx-2 white--text">Sevilla</small>
+       </v-row>
+       <p class="text teal--text mx-1 my-0 py-0">76.05%</p>
+       <p class="text caption white--text mx-1 my-0 py-0">1200 copias</p>
+       <v-row class="d-flex text-center text-center align-items-center px-4 mt-3">
+         <v-icon class="ma-0 pa-0 icon" color="secondary">mdi-information-outline</v-icon>
+         <p class="caption white--text mx-1">Riesgo</p>
+         <small class="px-2 pt-1 risk">6</small>
+       </v-row>
       </v-list-item-content>
-
-      <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
     </v-list-item>
-
-    <v-card-actions>
-      <v-btn outlined rounded text> Button </v-btn>
-    </v-card-actions>
   </v-card>
 </template>
 
@@ -22,4 +25,20 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.risk {
+  border: 2px solid #DED95F;
+  border-radius: 5px;
+  color: #DED95F;
+  height: 25px;
+  align-items: center;
+  text-align: justify;
+}
+.icon {
+  font-size: 20px ;
+  height: 20px;
+}
+.text {
+  height: 5px;
+}
+</style>

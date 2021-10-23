@@ -1,4 +1,4 @@
-import { dynamodb, dynamoClient } from './config';
+import { dynamoClient } from './config';
 
 async function getAllItemsAws(table) {
   try {
@@ -9,7 +9,7 @@ async function getAllItemsAws(table) {
     console.log(data);
     return data.Items;
   } catch (error) {
-    console.error(error);
+    return error;
   }
 }
 async function getItemByQueryAws(key, table) {
@@ -19,9 +19,9 @@ async function getItemByQueryAws(key, table) {
       TableName: table,
     };
     const result = await dynamoClient.get(params).promise();
-    return result.Item
+    return result.Item;
   } catch (error) {
-    console.error(error);
+    return error;
   }
 }
 

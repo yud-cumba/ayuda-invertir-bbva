@@ -5,7 +5,7 @@
         <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <h6 class="mt-3 font-weight-regular white--text">Día a día</h6>
+      <h6 class="mt-3 font-weight-regular white--text">Mi Día a día</h6>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
         class="white--text"

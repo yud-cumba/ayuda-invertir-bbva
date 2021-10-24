@@ -7,7 +7,7 @@
           cols="12"
         >
           <v-card
-            class="mx-auto rounded-lg card" max-width="325"
+            class="mx-auto rounded-lg card ma-1" max-width="325"
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -24,7 +24,7 @@
                 size="68"
                 tile
               >
-                <v-img :src="item.src"></v-img>
+                <v-img cover :src="`${require(`@/assets/${item.img}.png`)}`"></v-img>
               </v-avatar>
             </div>
           </v-card>
@@ -38,25 +38,24 @@ export default {
   data: () => ({
     items: [
       {
-        src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-        title: 'Solana have jumped by 40% over the last two days despite increased threat of hacker.',
+        img: 'notice1',
+        title: 'Solana ha crecido 40% en los últimos dos días a pesar de la amenaza de piratas informáticos.',
         artist: 'DeFi - Ahora',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-        title: 'On August 18: Major stories on Bitcoin, cryptocurrency bill and investing',
+        img: 'notice2',
+        title: 'Este 18 de Octubre: Grandes noticias sobre Bitcoin, criptomonedas e inversiones.',
         artist: 'Decrypt - hace 37 min',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-        title: 'Tougher Rules Are Coming For Bitcoin And Other Crypto. Here is What To Know',
+        img: 'notice3',
+        title: 'Vienen reglas más estrictas para Bitcoin y otras criptomonedas. Esto es lo que debes saber.',
         artist: 'Crpto Law - hace 37 min',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-        title: 'Ethereum 2.0 Staking Contract Now Holds the Ether',
+        img: 'notice4',
+        title: 'El contrato de participación de Ethereum 2.0 ahora tiene la mayor cantidad de éter.',
         artist: 'Decrypt - hace 37 min',
-        // src: '../assets/new-one.png',
         sizes: '192x192',
         type: 'image/png',
       },

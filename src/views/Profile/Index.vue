@@ -1,8 +1,6 @@
 <template>
   <div class="d-flex flex-column align-center justify-center">
-    <v-img width="200" src="@/assets/saving.jpeg"></v-img>
-    <span class="text-center mt-2">Tus ahorros son:</span>
-    <h1 class="text-center">$12,785</h1>
+    <Saving/>
     <p class="mx-2 text-center font-weight-bold">Te contamos de nuestros tipos de inversiones</p>
     <div class="container">
       <v-card
@@ -29,6 +27,7 @@
 
 <script>
 import Previous from './Previous.vue';
+import Saving from '@/components/Saving.vue';
 
 export default {
   created() {
@@ -61,6 +60,7 @@ export default {
   }),
   components: {
     Previous,
+    Saving,
   },
 };
 </script>

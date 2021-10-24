@@ -1,11 +1,12 @@
-<h1 align="center">K-TEAM</h1>
-
 <div align="center">
   <h3>
     <a href="http://copy-investor.s3-website-sa-east-1.amazonaws.com/" target="_blank" >
-    <a href="http://copy-investor.s3-website-sa-east-1.amazonaws.com/" target="_blank" >
-      BBVA INVESTOR
-    </a>
+  <div align="center">
+    <img width="250px" src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg">
+  </div>
+  <a href="http://copy-investor.s3-website-sa-east-1.amazonaws.com/" target="_blank" >
+  BBVA INVESTOR
+  </a>
   </h3>
 </div>
 
@@ -57,4 +58,4 @@ Construido por :
 - Joshua Arnao - UX Designer
 - Omaira Palacios - Developer
 - Sandy Marmolejo - Developer
-- Yudidt Cumba - Developer
+- Yuditd Cumba - Developer

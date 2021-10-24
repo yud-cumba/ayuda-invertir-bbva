@@ -28,7 +28,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    copier: {
+      type: Object,
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

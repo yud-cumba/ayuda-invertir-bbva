@@ -26,7 +26,7 @@
           @click="
             $router.push({
               name: 'CopiersDetails',
-              params: { id: dataCopier.copy_bankingId },
+              params: { id: dataCopier.copy_bankingId, copier: dataCopier },
             })
           "
           >Ver
@@ -60,7 +60,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  border: 1px solid #3771b2;
+  border: 1px solid #040a33;
 }
 .riskA {
   border: 2px solid red;

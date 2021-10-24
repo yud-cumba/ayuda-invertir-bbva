@@ -3,6 +3,7 @@
     <h3 class="mt-1">Tus especialistas de inversión</h3>
     <h5 class="grey--text">Tops en rentabilidad</h5>
     <ListTopCopiers/>
+    <h5 class="grey--text">Haz tuyas, sus estrategias</h5>
     <ListCopiers/>
   </div>
 

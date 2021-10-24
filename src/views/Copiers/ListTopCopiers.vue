@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 mx-0 px-0 container">
+  <div class="mx-0 px-0 container">
     <v-col class="mr-3 px-0 py-1 px-0" v-for="copybanker in copybankers.slice(0, 4)" :key="copybanker.userId">
       <CardTopCopier :copier="copybanker" />
     </v-col>

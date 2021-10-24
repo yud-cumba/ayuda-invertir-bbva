@@ -2,7 +2,7 @@
   <h3>
     <a href="http://copy-investor.s3-website-sa-east-1.amazonaws.com/" target="_blank" >
   <div align="center">
-    <img width="250px" src="https://github.com/yud-cumba/ayuda-invertir-bbva/blob/main/src/assets/logo-bbva.jpg">
+    <img width="250px" src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_azul.svg">
   </div>
   <a href="http://copy-investor.s3-website-sa-east-1.amazonaws.com/" target="_blank" >
   BBVA INVESTOR

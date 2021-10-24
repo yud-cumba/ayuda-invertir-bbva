@@ -27,7 +27,7 @@
           >{{product.profit}}%</small>
         </div>
       </v-list-item-content>
-      <v-btn class="mb-2"  color="secondary">Ver</v-btn>
+      <v-btn @click="$router.push({ name: 'PortfolioSaving' });" class="mb-2"  color="secondary">Ver</v-btn>
     </v-list-item>
   </v-card>
 </template>

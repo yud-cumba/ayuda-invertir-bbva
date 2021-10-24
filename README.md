@@ -21,10 +21,10 @@ Nuestra solución se basa en el desarrollo de una PWA (Progressive Web App)- Ver
 
 Considerando el tiempo disponible para el desarrollo de la solución, hemos decidido realizar el reto con tecnologia PWA como un primer MVP. Nuestro primer objetivo es encontrar el product market fit entre la solución propuesta y el problema planteado.
 
-- Mira nuestra solución [aquí](http://copy-investor.s3-website-sa-east-1.amazonaws.com/)
+### 🚀 Mira nuestra solución [aquí](http://copy-investor.s3-website-sa-east-1.amazonaws.com/) 
 #### Tecnologías que están utilizando (lenguajes, frameworks, bibliotecas, servicios en la nube).
 
-Vue, Node, DynamoDB, S3, Github, Aws
+Vue, Node, DynamoDB, S3, Github, Aws Machine Learning
 
 ### Stack tecnológico
 

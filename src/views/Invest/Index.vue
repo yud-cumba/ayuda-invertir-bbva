@@ -13,7 +13,7 @@
         v-model="invest"
         dense
         outlined
-        @blur="calculateInvest"
+        @mouseleave="calculateInvest"
         prepend-inner-icon="mdi-cash"
   ></v-text-field>
     </v-row>
@@ -197,10 +197,13 @@ export default {
   },
   methods: {
     calculateInvest() {
+      this.bitcoin = 0;
+      this.eth = 0;
+      this.ftt = 0;
       console.log(this.invest);
-      this.bitcoin = this.invest - this.invest * 0.6;
-      this.eth = this.invest - this.invest * 0.3;
-      this.ftt = this.invest - this.invest * 0.1;
+      this.bitcoin = (this.invest * 0.6);
+      this.eth = (this.invest * 0.3);
+      this.ftt = (this.invest * 0.1);
     },
   },
 };

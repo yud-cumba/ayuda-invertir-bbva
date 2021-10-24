@@ -13,12 +13,13 @@ const routerOptions = [
   { path: '/init', name: 'Init' },
   { path: '/profile', name: 'Profile' },
   { path: '/invest', name: 'Invest' },
-  { path: '/trading/id', name: 'Trading' },
+  { path: '/trading/:id?', name: 'Trading' },
   { path: '/dreams', name: 'Dreams' },
   { path: '/BBVAHome', name: 'BBVAHome' },
   { path: '/advice', name: 'Advice' },
   { path: '/loading', name: 'Loading' },
   { path: '/portfolio', name: 'PortfolioAuto' },
+  { path: '/portfolio-saving', name: 'PortfolioSaving' },
   { path: '*', name: 'NotFound' },
 ];
 

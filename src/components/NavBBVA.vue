@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar height="60" color="secondary" class="pa-0 elevation-0 secondary" prominent fixed>
+    <v-app-bar height="60" color= "#072146" class="fondo pa-0 elevation-0" prominent fixed>
       <v-btn @click="$router.go(-1)" class="caption white--text ml-1" icon>
         <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
@@ -54,4 +54,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.fondo {
+  background-color: #004481;
+}
+</style>

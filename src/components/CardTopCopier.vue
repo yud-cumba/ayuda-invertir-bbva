@@ -1,5 +1,11 @@
 <template>
-  <v-card color="primary" class="rounded-lg" min-width="282">
+  <v-card
+    @click="
+      $router.push({
+        name: 'CopiersDetails',
+        params: { id: dataCopier.copy_bankingId, copier: dataCopier },
+      })"
+      color="primary" class="rounded-lg" min-width="282">
     <v-list-item three-line>
         <v-list-item-avatar class="avatar" height="100" width="100" tile color="grey">
           <v-img cover :src="`https://randomuser.me/api/portraits/${dataCopier.img_profile}`"></v-img>

@@ -12,9 +12,11 @@ const routerOptions = [
   { path: '/news', name: 'News' },
   { path: '/init', name: 'Init' },
   { path: '/profile', name: 'Profile' },
-  // { path: '*', name: 'NotFound' },
   { path: '/dreams', name: 'Dreams' },
   { path: '/BBVAHome', name: 'BBVAHome' },
+  { path: '/advice', name: 'Advice' },
+  { path: '/loading', name: 'Loading' },
+  { path: '/portfolio', name: 'PortfolioAuto' },
   { path: '*', name: 'NotFound' },
 ];
 

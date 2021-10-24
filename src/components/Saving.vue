@@ -2,7 +2,7 @@
     <div  class="d-flex flex-column align-center justify-center">
         <v-img class="rounded-lg" width="150" src="@/assets/saving.jpeg"></v-img>
         <span class="text-center mt-2">Tus ahorros son:</span>
-        <h1 class="text-center">${{ammount}}</h1>
+        <h1 class="text-center">€{{ammount}}</h1>
     </div>
 </template>
 

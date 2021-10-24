@@ -49,24 +49,24 @@
         "name": "Nio",
         "profit": 9.77,
         "risk_level": "1",
-        "img": "nio",
-        "type": "Acciones"
+        "img": "NIO",
+        "type": "acciones"
     },
     {
         "productId": "PRODUCT007",
         "name": "PLRT",
         "profit": -21.00,
         "risk_level": "10",
-        "img": "plrt",
-        "type": "Acciones"
+        "img": "PLRT",
+        "type": "acciones"
     },
     {
         "productId": "PRODUCT008",
         "name": "SUMO",
         "profit": 10.15,
         "risk_level": "8",
-        "img": "sumo",
-        "type": "Acciones"
+        "img": "SUMO",
+        "type": "acciones"
     },
     {
         "productId": "PRODUCT009",
@@ -81,14 +81,6 @@
         "name": "Fondos mutuos",
         "profit": 0.07,
         "risk_level": "2",
-        "img": "fondo",
-        "type": "Fondos"
-    },
-    {
-        "productId": "PRODUCT011",
-        "description": "105.06",
-        "profit": -16.31,
-        "risk_level": "9",
         "img": "fondo",
         "type": "Fondos"
     }

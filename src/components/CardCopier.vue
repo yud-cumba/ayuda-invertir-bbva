@@ -21,7 +21,7 @@
         'riskB': 'riskC', 'px-2 py-1']">{{dataCopier.risk_level}}</p>
         <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ dataCopier.profit }}%</p>
         <v-btn
-          class="pa-2 caption text-capitalize"
+          class="pa-2 text-btn"
           color="secondary"
           @click="
             $router.push({
@@ -90,5 +90,12 @@ export default {
 }
 .name {
   width: 50px;
+}
+.text-btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 </style>

@@ -3,7 +3,7 @@
     <Saving />
     <v-row class=" d-flex text-center align-center my-5">
       <v-col>
-        <h5>Tú ganancia será</h5>
+        <h5>Tu ganancia será</h5>
         <h5>Periodo de tiempo</h5>
       </v-col>
       <v-col>

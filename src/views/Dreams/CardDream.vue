@@ -6,9 +6,9 @@
         </v-list-item-avatar>
       <v-list-item-content class="mt-3">
           <h3 class="text-name mb-1">{{dream.name}}</h3>
-       <p class="text-title mx-1 my-1 py-0">{{dream.title}}</p>
+       <p class="text-title mx-1 my-0 py-0">{{dream.title}}</p>
        <p class="text-detail mx-1 my-0 py-0">"{{dream.detail}}"</p>
-         <p class="text-time mx-1 my-1">Tiempo de inversión: {{dream.time}} meses </p>
+         <p class="text-time mx-1 my-0 py-0">Tiempo de inversión: {{dream.time}} meses </p>
       </v-list-item-content>
     </v-list-item>
   </v-card>
@@ -33,7 +33,7 @@ export default {
 font-family: 'Euclid Circular A';
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 13px;
 line-height: 18px;
 color: #000000;
 }
@@ -49,7 +49,7 @@ color: #000000;
 font-family: Euclid Circular A;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 18px;
 color: #000000;
 }

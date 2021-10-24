@@ -2,14 +2,14 @@
     <div>
         <CardLearn/>
          <v-row class="justify-center my-3">
+        <v-col>
+            <CardDream v-for="dream in dreams" :dream="dream" :key="dream.id"/>
+        </v-col>
         <v-btn  class="secondary pa-5 white text-capitalize rounded-lg"
             dark
             @click="$router.push({ name: 'Profile'})"
                 small>Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-btn>
         </v-row>
-        <v-col>
-            <CardDream v-for="dream in dreams" :dream="dream" :key="dream.id"/>
-        </v-col>
     </div>
 </template>
 

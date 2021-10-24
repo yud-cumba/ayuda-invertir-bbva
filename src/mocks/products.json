@@ -50,7 +50,7 @@
         "description": "40,555.85",
         "profit": 9.77,
         "risk_level": "1",
-        "img": "NIO3",
+        "img": "NIO",
         "type": "Acciones"
     },
     {
@@ -59,7 +59,7 @@
         "description": "40,555.85",
         "profit": -21.00,
         "risk_level": "10",
-        "img": "plrt",
+        "img": "PLRT",
         "type": "Acciones"
     },
     {
@@ -68,7 +68,7 @@
         "description": "40,555.85",
         "profit": 10.15,
         "risk_level": "8",
-        "img": "sumo",
+        "img": "SUMO",
         "type": "Acciones"
     },
     {

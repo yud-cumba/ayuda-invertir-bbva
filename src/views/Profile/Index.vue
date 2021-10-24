@@ -22,7 +22,7 @@
         <h4 class="teal--text">{{type.gain}}</h4>
         <h4> {{type.time}} meses</h4>
       </v-card>
-</div>
+    </div>
 <Previous/>
   </div>
 </template>
@@ -66,6 +66,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.labels{
+}
 .container {
     display: flex;
     overflow-x: auto;

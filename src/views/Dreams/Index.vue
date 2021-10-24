@@ -7,7 +7,7 @@
         <v-row class="justify-center my-3">
          <v-btn  class="secondary pa-4 white text-capitalize"
             dark
-            @click="$router.push({ name: 'Dreams'})"
+            @click="$router.push({ name: 'Profile'})"
                 small>Ir por mis sueños</v-btn>
         </v-row>
     </div>

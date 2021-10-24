@@ -1,6 +1,6 @@
 <template>
     <div class="fondo view d-flex flex-column align-center">
-        <v-row class="justify-center">
+        <v-row class="justify-center my-1">
             <v-img src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
             class="mt-7"
             max-width="70" max-height="20">

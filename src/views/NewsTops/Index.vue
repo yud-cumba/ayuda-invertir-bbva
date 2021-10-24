@@ -59,8 +59,8 @@ export default {
   },
   data: () => ({
     tab: null,
-    header: ['Coins', 'Noticias'],
-    items: ['Todos', 'Fondos', 'Criptos', 'Fondos', 'Acciones'],
+    header: ['Top productos', 'Noticias'],
+    items: ['Todos', 'Fondos', 'Criptos', 'Acciones'],
   }),
   components: {
     CardLearn,

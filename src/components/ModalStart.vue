@@ -7,11 +7,11 @@
       >
         <v-card min-height="90%"  class="rounded-lg px-4 d-flex flex-column justify-center align-center text-center">
           <h3 class="pt-5">
-            Has crecer tu dinero
+            Haz crecer tu dinero
           </h3>
           <v-img width="80%" src="../assets/img/start.png"></v-img>
            <v-row class="ma-4">
-           <h5> Que tus sueños no tengan limites, pierde el miedo a invertir con nuestros productos adaptados para tí</h5>
+           <h5> Que tus sueños no tengan límites, pierde el miedo a invertir con nuestros productos adaptados para tí.</h5>
           </v-row>
           <v-card-actions>
             <v-spacer></v-spacer>

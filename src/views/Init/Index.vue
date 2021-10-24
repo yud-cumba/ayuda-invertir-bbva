@@ -34,15 +34,16 @@ export default {
     items: [
       {
         img: 'goal',
-        text: 'Omaira, sabias que otros clientes han logrado sus vacaciones soñadas invirtiendo su dinero.',
+        text: 'Jurado BBVA, sabias que otros clientes han logrado sus vacaciones soñadas invirtiendo su dinero.',
       },
       {
         img: 'goal1',
-        text: 'Omaira, sabias que otros clientes han logrado construir sus viviendas invirtiendo su dinero.',
+        text: 'Jurado BBVA, sabias que otros clientes han logrado construir sus viviendas invirtiendo su dinero.',
       },
       {
         img: 'goal2',
-        text: 'Omaira, ¿Estás lista para tu próximo viaje?, invirtiendo con nosotros el momento llegará mas rapido de lo que crees',
+        // eslint-disable-next-line max-len
+        text: 'Jurado BBVA, ¿Estás lista para tu próximo viaje?, invirtiendo con nosotros el momento llegará mas rapido de lo que crees',
       },
     ],
   }),

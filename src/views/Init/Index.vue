@@ -7,7 +7,8 @@
                 {{items[selected].text}}
                 </p>
                 <v-row class="mt-2 mb-6">
-                    <v-btn v-for="(item, i) in items" :key="item.img" fab :class="`${i === selected ? 'secondary' : 'grey'} mx-1`"
+                    <v-btn v-for="(item, i) in items"
+                    :key="item.img" fab :class="`${i === selected ? 'secondary' : 'grey'} mx-1`"
                     @click="selected = i">
                     </v-btn>
                 </v-row>

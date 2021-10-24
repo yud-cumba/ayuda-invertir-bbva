@@ -27,7 +27,7 @@ export default {
     },
     detail: {
       type: String,
-      default: 'En BBVA aprendemos y crecemos contigo ven a conocer con nosotros',
+      default: 'En BBVA aprendemos y crecemos contigo ven a conocer con nosotros.',
     },
     btnText: {
       type: String,

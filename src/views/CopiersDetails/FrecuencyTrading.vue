@@ -30,7 +30,7 @@
                 >Beneficio medio</small
               >
               <small class="name font-weight-regular grey--text my-0 py-0 mx-0"
-                >Perdida media</small
+                >Pérdida media</small
               >
             </v-row>
           </v-row>
@@ -61,7 +61,7 @@
                 >Beneficio medio</small
               >
               <small class="name font-weight-regular grey--text my-0 py-0 mx-0"
-                >Perdida media</small
+                >Pérdida media</small
               >
             </v-row>
           </v-row>
@@ -92,7 +92,7 @@
                 >Beneficio medio</small
               >
               <small class="name font-weight-regular grey--text my-0 py-0 mx-0"
-                >Perdida media</small
+                >Pérdida media</small
               >
             </v-row>
           </v-row>

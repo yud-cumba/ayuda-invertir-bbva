@@ -42,7 +42,7 @@ export default {
         name: 'Cristian',
         title: 'Vacaciones',
         detail: '“No me preocupo por organizar mis vacaciones es como si se programaran solas ”',
-        time: 12,
+        time: 15,
         img: 'happy',
       },
       {

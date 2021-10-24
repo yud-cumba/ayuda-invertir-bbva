@@ -28,7 +28,7 @@
           </v-list-item>
 
           <v-list-item to="/portfolio">
-            <v-list-item-title>Inversión Automica</v-list-item-title>
+            <v-list-item-title>Inversión Automática</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

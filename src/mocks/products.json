@@ -50,8 +50,8 @@
         "description": "40,555.85",
         "profit": 9.77,
         "risk_level": "1",
-        "img": "NIO",
-        "type": "acciones"
+        "img": "NIO3",
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT007",
@@ -59,8 +59,8 @@
         "description": "40,555.85",
         "profit": -21.00,
         "risk_level": "10",
-        "img": "PLRT",
-        "type": "acciones"
+        "img": "plrt",
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT008",
@@ -68,8 +68,8 @@
         "description": "40,555.85",
         "profit": 10.15,
         "risk_level": "8",
-        "img": "SUMO",
-        "type": "acciones"
+        "img": "sumo",
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT009",

@@ -8,19 +8,19 @@
       <h6 class="mt-3 font-weight-regular">BBVA</h6>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
-        class="secondary--text"
+        class="primary--text"
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute right temporary>
+    <v-navigation-drawer light v-model="drawer" absolute right temporary>
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="blue--text text--blue"
         >
-          <v-list-item to="/profile" class="primary--text">
-            <v-list-item-title class="primary--text">Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-list-item-title>
+          <v-list-item to="/profile">
+            <v-list-item-title>Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/copiers">

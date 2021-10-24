@@ -9,7 +9,7 @@
   </h3>
 </div>
 
-## 🔥 Tabla de contenido
+## 🔥 Tabla de contenidos
 
 - [Contexto](#contexto)
 - [Vistas](#vistas)

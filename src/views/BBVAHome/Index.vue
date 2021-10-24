@@ -10,12 +10,14 @@
         :action="goOther"
         detail="Ahora con Mis Presupuestos puedes ordenar tus gastos de forma segura" btnText="Crear presupuesto"/>
         <br>
-        <ModalStart />
+        <ModalStart title="Haz crecer tu dinero"
+        description="Que tus sueños no tengan límites, pierde el miedo a invertir con nuestros productos adaptados para tí."
+         textBtn="Saber más" :action="goInit"/>
     </div>
 </template>
 
 <script>
-import CardLearn from '../../components/CardLearn.vue';
+import CardLearn from '@/components/CardLearn.vue';
 import ModalStart from '../../components/ModalStart.vue';
 import Expenses from './Expenses.vue';
 import ExpensesDetail from './ExpensesDetail.vue';

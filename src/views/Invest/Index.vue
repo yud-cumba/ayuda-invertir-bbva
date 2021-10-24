@@ -46,7 +46,7 @@
           Precio disponible
         </p>
          <p class="subtitle-2 font-weight-bold my-0 py-0">
-          69.420 $
+          € 69.420
         </p>
        </v-row>
     </v-list-item>
@@ -93,7 +93,7 @@
           Precio disponible
         </p>
          <p class="subtitle-2 font-weight-bold my-0 py-0">
-          4.420 $
+          € 4.420
         </p>
        </v-row>
     </v-list-item>
@@ -140,7 +140,7 @@
           Precio disponible
         </p>
          <p class="subtitle-2 font-weight-bold my-0 py-0">
-          2.420 $
+          € 2.420
         </p>
        </v-row>
     </v-list-item>

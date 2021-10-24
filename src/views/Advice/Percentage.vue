@@ -11,7 +11,7 @@
               <p class="range-p ">{{`${range[1]} %`}}</p>
             </template>
             </v-range-slider>
-             <p class="text-center text"> $ {{percentage}}.00</p>
+             <p class="text-center text">€{{percentage}}.00</p>
     </div>
 </template>
 

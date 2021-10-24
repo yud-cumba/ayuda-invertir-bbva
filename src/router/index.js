@@ -15,6 +15,7 @@ const routerOptions = [
   // { path: '*', name: 'NotFound' },
   { path: '/dreams', name: 'Dreams' },
   { path: '/BBVAHome', name: 'BBVAHome' },
+  { path: '/advice', name: 'Advice' },
   { path: '*', name: 'NotFound' },
 ];
 

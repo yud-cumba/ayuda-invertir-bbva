@@ -11,7 +11,7 @@
                     @click="selected = i">
                     </v-btn>
                 </v-row>
-            <v-btn  class="secondary pa-4 white text-capitalize"
+            <v-btn  class="secondary pa-4 white text-capitalize rounded-lg"
             dark
             @click="$router.push({ name: 'Dreams'})"
                 small>Sueños cumplidos</v-btn>
@@ -36,11 +36,11 @@ export default {
       },
       {
         img: 'goal1',
-        text: 'Omaira 2, sabias que otros clientes han logrado sus vacaciones soñadas invirtiendo su dinero.',
+        text: 'Omaira, sabias que otros clientes han logrado construir sus viviendas invirtiendo su dinero.',
       },
       {
         img: 'goal2',
-        text: 'Omaira 3, sabias que otros clientes han logrado sus vacaciones soñadas invirtiendo su dinero.',
+        text: 'Omaira, ¿Estás lista para tu próximo viaje?, invirtiendo con nosotros el momento llegará mas rapido de lo que crees',
       },
     ],
   }),

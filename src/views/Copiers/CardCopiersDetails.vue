@@ -13,7 +13,7 @@
       <v-list-item-content
         class="content d-flex flex-column text-center justify-items-center align-items-center"
       >
-        <h5 class="name ma-1">Jeff Madrid</h5>
+        <h5 class="name ma-1">{{copier.name}}</h5>
         <p class="mx-2 py-1 risk">{{copier.risk_level}}</p>
         <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ copier.profit }}%</p>
         <v-btn

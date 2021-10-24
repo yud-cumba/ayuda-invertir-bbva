@@ -2,7 +2,7 @@
   <v-card color="primary" class="mx-auto py-1 rounded-lg" max-width="100%">
     <v-list-item three-line>
         <v-list-item-avatar class="avatar" height="100" width="125" tile color="grey">
-          <v-img cover src="https://randomuser.me/api/portraits/women/76.jpg"></v-img>
+          <v-img cover src="@/assets/copiers.png"></v-img>
         </v-list-item-avatar>
       <v-list-item-content class="mx-1">
        <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">

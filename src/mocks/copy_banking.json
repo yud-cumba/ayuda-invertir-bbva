@@ -4,31 +4,59 @@
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "400",
-        "profit": 75.6,
-        "risk_level": "C"
+        "profit": 76.05,
+        "risk_level": "A",
+        "name": "Jeff Madrid",
+        "img": ""
     },
     {
         "userId": "BBVA002INVERTITR",
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "200",
-        "profit": 75.2,
-        "risk_level": "C"
+        "profit": 61.13,
+        "risk_level": "A",
+        "name": "Juan Barcelona",
+        "img": ""
     },
     {
         "userId": "BBVA003INVERTITR",
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "100",
-        "profit": 75.4,
-        "risk_level": "C"
+        "profit": 53.00,
+        "risk_level": "M",
+        "name": "Ainhoa Valencia",
+        "img": ""
     },
     {
         "userId": "BBVA004INVERTITR",
         "portfolioId": "PORTFOLIO002",
         "copy_bankingId": "COPYBANCKING001",
         "follower": "340",
-        "profit": 74.6,
-        "risk_level": "C"
+        "profit": 47.82,
+        "risk_level": "C",
+        "name": "Laura Madrid",
+        "img": ""
+    },
+    {
+        "userId": "BBVA005INVERTITR",
+        "portfolioId": "PORTFOLIO002",
+        "copy_bankingId": "COPYBANCKING001",
+        "follower": "340",
+        "profit": 39.65,
+        "risk_level": "M",
+        "name": "Jorge Madrid",
+        "img": ""
+    },
+    {
+        "userId": "BBVA006INVERTITR",
+        "portfolioId": "PORTFOLIO002",
+        "copy_bankingId": "COPYBANCKING001",
+        "follower": "340",
+        "profit": 26.38,
+        "risk_level": "M",
+        "name": "Carlos Madrid",
+        "img": ""
     }
 ]

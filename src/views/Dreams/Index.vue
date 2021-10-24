@@ -5,7 +5,7 @@
             <CardDream v-for="dream in dreams" :dream="dream" :key="dream.id"/>
         </v-col>
         <v-row class="justify-center my-3">
-         <v-btn  class="secondary pa-4 white text-capitalize"
+         <v-btn  class="secondary pa-4 white text-capitalize rounded-lg"
             dark
             @click="$router.push({ name: 'Profile'})"
                 small>Ir por mis sueños</v-btn>

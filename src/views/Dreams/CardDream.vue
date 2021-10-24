@@ -7,7 +7,7 @@
       <v-list-item-content class="mt-3">
           <h3 class="text-name mb-1">{{dream.name}}</h3>
        <p class="text-title mx-1 my-1 py-0">{{dream.title}}</p>
-       <p class="text-detail mx-1 my-0 py-0">"{{dream.detail}}"</p>
+       <p class="text-detail mx-1 my-0 py-0">{{dream.detail}}</p>
          <p class="text-time mx-1 my-1">Tiempo de inversión: {{dream.time}} meses </p>
       </v-list-item-content>
     </v-list-item>

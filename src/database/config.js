@@ -7,8 +7,6 @@ AWS.config.update({
   secretAccessKey: process.env.VUE_APP_SECRET_KEY,
 });
 
-console.log('AQUI', AWS.config);
-
 const dynamodb = new AWS.DynamoDB();
 const dynamoClient = new AWS.DynamoDB.DocumentClient();
 

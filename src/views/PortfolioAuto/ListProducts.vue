@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import CardProduct from '@/components/CardProduct.vue';
-import products from '@/mocks/products.json';
+import CardProduct from '@/components/CardPorfolio.vue';
+import products from '@/mocks/auto_portfolios.json';
 
 export default {
   data: () => ({

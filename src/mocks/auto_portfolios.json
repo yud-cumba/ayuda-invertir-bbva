@@ -1,0 +1,22 @@
+[
+    {
+        "productId": "PRODUCT001",
+        "name": "Portafolio RSS",
+        "time": "3"
+    },
+    {
+        "productId": "PRODUCT002",
+        "name": "Fondos Mutuos",
+        "time": "7"
+    },
+    {
+        "productId": "PRODUCT003",
+        "name": "Fondos compartidos",
+        "time": "8"
+    },
+    {
+        "productId": "PRODUCT012",
+        "name": "Fondo Redes sociales",
+        "time": "4"
+    }
+]

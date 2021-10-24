@@ -1,48 +1,75 @@
 <template>
-  <v-card color="primary" class="mx-auto py-1 rounded-lg" max-width="100%">
-    <v-list-item three-line>
-        <v-list-item-avatar class="avatar" height="100" width="125" tile color="grey">
-          <v-img cover src="@/assets/copiers.png"></v-img>
-        </v-list-item-avatar>
-      <v-list-item-content class="mx-1">
-       <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">
-          <h3 class="font-weight-regular white--text mb-1">Sandy</h3>
-          <small class="mt-1 font-weight-thin mx-2 white--text">Sevilla</small>
-       </v-row>
-       <p class="text teal--text mx-1 my-0 py-0">76.05%</p>
-       <p class="text caption white--text mx-1 my-0 py-0">1200 copias</p>
-       <v-row class="d-flex text-center text-center align-items-center px-4 mt-3">
-         <v-icon class="ma-0 pa-0 icon" color="secondary">mdi-information-outline</v-icon>
-         <p class="caption white--text mx-1">Riesgo</p>
-         <small class="px-2 pt-1 risk">M</small>
-       </v-row>
+  <v-card class="mx-auto rounded-lg card my-0" max-width="100%">
+    <v-list class="d-flex px-2 py-1">
+      <v-list-item-avatar
+        class="mx-1 rounded-lg"
+        height="50"
+        width="50"
+        tile
+        color="grey"
+      >
+        <v-img cover :src="`https://randomuser.me/api/portraits/${dataCopier.img_profile}`"></v-img>
+      </v-list-item-avatar>
+      <v-list-item-content
+        class="content d-flex flex-column text-center justify-items-center align-items-center"
+      >
+        <h5 class="name ma-1">{{dataCopier.name}} {{dataCopier.lastname}}</h5>
+        <p class="mx-2 py-1 risk">{{dataCopier.risk_level}}</p>
+        <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ dataCopier.profit }}%</p>
+        <v-btn
+          class="pa-2 caption text-capitalize"
+          color="secondary"
+          @click="
+            $router.push({
+              name: 'CopiersDetails',
+              params: { id: dataCopier.copy_bankingId },
+            })
+          "
+          >Ver
+        </v-btn>
       </v-list-item-content>
-    </v-list-item>
+    </v-list>
   </v-card>
 </template>
 
 <script>
+import users from '@/mocks/users.json';
+
 export default {
+  props: {
+    copier: {
+      type: Object,
+    },
+  },
+  data() {
+    return {
+      dataCopier: {},
+    };
+  },
+  created() {
+    console.log(users);
+    const [user] = users.filter(({ userId }) => userId === this.copier.userId);
+    this.dataCopier = { ...user, ...this.copier };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
+.card {
+  border: 1px solid #3771b2;
+}
 .risk {
-  border: 2px solid #DED95F;
+  border: 2px solid #99eaf5;
   border-radius: 5px;
-  color: #DED95F;
-  height: 25px;
-  align-items: center;
-  text-align: justify;
+  color: #99eaf5;
+  width: 28px;
+  font-size: 12px;
 }
-.icon {
-  font-size: 20px ;
-  height: 20px;
+.content {
+  height: 40px;
+  justify-content: center;
 }
-.text {
-  height: 5px;
-}
-.avatar {
-  border-radius: 5px !important;
+.name {
+  width: 50px;
 }
 </style>

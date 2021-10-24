@@ -1,13 +1,13 @@
 <template>
   <div class="mt-5">
-    <v-col class="mx-0 px-0 py-1" v-for="copybanker in copybankers" :key="copybanker.copy_bankingId">
-      <CardCopiersDetails :copier="copybanker" />
+    <v-col class="mx-0 px-0 py-1" v-for="copybanker in copybankers.slice(4, 9)" :key="copybanker.userId">
+      <CardCopier :copier="copybanker" />
     </v-col>
   </div>
 </template>
 
 <script>
-import CardCopiersDetails from './CardCopiersDetails.vue';
+import CardCopier from '@/components/CardCopier.vue';
 import copybankers from '@/mocks/copy_banking.json';
 
 export default {
@@ -17,7 +17,7 @@ export default {
     };
   },
   components: {
-    CardCopiersDetails,
+    CardCopier,
   },
 };
 </script>

@@ -1,39 +1,75 @@
 [
-    {
-        "userId": "BBVA001INVERTITR",
-        "name": "Yuditd Araceli",
-        "lastname": "Cumba Tinipuclla",
-        "doc": "75587332",
-        "created": "2021/01/01",
-        "copy_bancking": "PORTFOLIO002"
-    },
-    {
-        "userId": "BBVA002INVERTITR",
-        "name": "Omaira",
-        "lastname": "Palacios",
-        "doc": "75587332",
-        "created": "2021/01/01"
-    },
-    {
-        "userId": "BBVA003INVERTITR",
-        "name": "Jeff",
-        "lastname": "Felipa",
-        "doc": "45587332",
-        "created": "2021/01/01"
-    }
-    ,
-    {
-        "userId": "BBVA004INVERTITR",
-        "name": "Sandy",
-        "lastname": "Marmolejo",
-        "doc": "75587332",
-        "created": "2021/01/01"
-    },
-    {
-        "userId": "BBVA005INVERTITR",
-        "name": "Andrés",
-        "lastname": "Mendez",
-        "doc": "45587332",
-        "created": "2021/01/01"
-    }
+  {
+    "userId": "BBVA001INVERTITR",
+    "name": "Yuditd",
+    "lastname": "Cumba",
+    "doc": "75587332",
+    "created": "2021/01/01",
+    "copy_bancking": "PORTFOLIO002",
+    "img_profile": "women/17.jpg"
+  },
+  {
+    "userId": "BBVA002INVERTITR",
+    "name": "Omaira",
+    "lastname": "Palacio",
+    "doc": "75587332",
+    "created": "2021/01/01",
+    "img_profile": "women/37.jpg"
+  },
+  {
+    "userId": "BBVA003INVERTITR",
+    "name": "Jeff",
+    "lastname": "Felipa",
+    "doc": "45587332",
+    "created": "2021/01/01",
+    "img_profile": "men/32.jpg"
+  },
+  {
+    "userId": "BBVA004INVERTITR",
+    "name": "Sandy",
+    "lastname": "Marmolejo",
+    "doc": "75587332",
+    "created": "2021/01/01",
+    "img_profile": "women/76.jpg"
+  },
+  {
+    "userId": "BBVA005INVERTITR",
+    "name": "Andrés",
+    "lastname": "Mendez",
+    "doc": "45587332",
+    "created": "2021/01/01",
+    "img_profile": "men/46.jpg"
+  },
+  {
+    "userId": "BBVA006INVERTITR",
+    "name": "Yanina",
+    "lastname": "Gomez",
+    "doc": "41587332",
+    "created": "2021/01/01",
+    "img_profile": "women/2.jpg"
+  },
+  {
+    "userId": "BBVA007INVERTITR",
+    "name": "Cari",
+    "lastname": "Polacci",
+    "doc": "015587332",
+    "created": "2021/01/01",
+    "img_profile": "women/24.jpg"
+  },
+  {
+    "userId": "BBVA008INVERTITR",
+    "name": "Ybed",
+    "lastname": "Delgado",
+    "doc": "41987332",
+    "created": "2021/01/01",
+    "img_profile": "women/26.jpg"
+  },
+  {
+    "userId": "BBVA009INVERTITR",
+    "name": "Joshua",
+    "lastname": "Arnao",
+    "doc": "4024589645",
+    "created": "2021/01/01",
+    "img_profile": "men/36.jpg"
+  }
 ]

@@ -19,9 +19,6 @@
 - [Equipo de desarrollo](#equipo-de-desarrollo)
 
 ## Contexto
-
-Community Fest and Code planea hacer un evento en el 2022 en donde incluya no solo a programadores que dominen la parte del frontend si no también programadores que trabajen desde cualquier especialidad, para esto necesitaran una plataforma web que pueda automatizar en gran medida toda la parte de la logística.
-
 ## Vistas
 
 <details>

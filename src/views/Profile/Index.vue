@@ -7,10 +7,11 @@
         flat
        class="flat mx-2 d-flex flex-column align-center justify-center" height="200" width="300"
       >
-      <br><br><br><br><br>
-        <small>Ahorro</small>
-        <small>Ganancia</small>
-        <small>Tiempo</small>
+      <br><br><br><br>
+      <small class="py-1"></small>
+        <small class="py-1">Ahorro</small>
+        <small class="py-1">Ganancia</small>
+        <small class="py-1">Tiempo</small>
      </v-card>
       <v-card v-for="type in types" :key="type.title"
       width="150" class="elevation-0 mx-4 d-flex flex-column align-center justify-center" height="200">

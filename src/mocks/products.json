@@ -1,29 +1,20 @@
 [
     {
+        "productId": "PRODUCT006",
+        "name": "Nio",
+        "description": "40,555.85",
+        "profit": 9.77,
+        "risk_level": "1",
+        "img": "NIO3",
+        "type": "Acciones"
+    },
+    {
         "productId": "PRODUCT001",
         "name": "Bitcoin",
         "description": "2,509.75",
         "profit": 9.77,
         "risk_level": "1",
         "img": "BTC",
-        "type": "Criptos"
-    },
-    {
-        "productId": "PRODUCT002",
-        "name": "Ethereum",
-        "description": "2,555.85",
-        "profit": -21.00,
-        "risk_level": "10",
-        "img": "ETH",
-        "type": "Criptos"
-    },
-    {
-        "productId": "PRODUCT003",
-        "name": "FTX Token",
-        "description": "553.06",
-        "profit": 10.15,
-        "risk_level": "8",
-        "img": "FTT",
         "type": "Criptos"
     },
     {
@@ -61,6 +52,24 @@
         "risk_level": "10",
         "img": "PLRT",
         "type": "Acciones"
+    },
+    {
+        "productId": "PRODUCT002",
+        "name": "Ethereum",
+        "description": "2,555.85",
+        "profit": -21.00,
+        "risk_level": "10",
+        "img": "ETH",
+        "type": "Criptos"
+    },
+    {
+        "productId": "PRODUCT003",
+        "name": "FTX Token",
+        "description": "553.06",
+        "profit": 10.15,
+        "risk_level": "8",
+        "img": "FTT",
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT008",

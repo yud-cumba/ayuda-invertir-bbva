@@ -24,9 +24,7 @@
         </v-row>
             </v-col>
             <v-col class="d-flex flex-column align-center ">
-             <v-btn outlined color="white" width="200" class="py-2 text-capitalize" @click="$router.push({
-                 name: 'BBVAHome'
-             })"> Iniciar sesión</v-btn>
+             <v-btn outlined color="white" width="200" class="py-2 text-capitalize" @click="login"> Iniciar sesión</v-btn>
             <v-btn outlined color="white" width="200" class=" py-2 mt-3 text-capitalize"> Crear contraseña</v-btn>
              <v-btn text color="white" class="px-9 py-2 mt-3 text-capitalize"> Volverse usuario</v-btn>
             </v-col>
@@ -35,7 +33,16 @@
 
 <script>
 export default {
-
+  created() {
+    this.$store.commit('SET_LAYOUT', 'login-layout');
+  },
+  methods: {
+    login() {
+      this.$router.push({
+        name: 'BBVAHome',
+      });
+    },
+  },
 };
 </script>
 

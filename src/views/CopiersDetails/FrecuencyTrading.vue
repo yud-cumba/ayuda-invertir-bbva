@@ -14,7 +14,7 @@
             tile
             color="black"
           >
-            <v-img cover src="../../assets/icons/BTC.svg"></v-img>
+            <v-img cover src="@/assets/icons/BTC.svg"></v-img>
           </v-list-item-avatar>
           <v-row class="d-flex py-3 pr-2 pl-4 mx-2">
             <v-row class="d-flex flex-column px-2 mt-2 column">

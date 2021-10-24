@@ -23,6 +23,12 @@
       <v-col class="py-2 px-0" v-for="product in products" :key="product.productId">
         <CardProduct :product="product"/>
       </v-col>
+      <v-row class="d-flex justify-center align-center my-4">
+      <v-btn  class="secondary pa-5 white text-capitalize rounded-lg"
+            dark
+            @click="$router.push({ name: 'PortfolioSaving'})"
+                small>Invertir</v-btn>
+      </v-row>
     </div>
 </template>
 

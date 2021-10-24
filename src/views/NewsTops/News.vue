@@ -2,9 +2,6 @@
     <div>
        <v-row class="d-flex mx-1 mt-1 mb-0 pa-0">
          <v-col><h1 class="text-top mx-2">Top Noticias</h1></v-col>
-           <v-col>
-             <v-img src="../../assets/icon-upgrade.svg" width="30px" alt="icon-upgrade" class="mx-16"/>
-           </v-col>
         </v-row>
          <CardNews />
     </div>

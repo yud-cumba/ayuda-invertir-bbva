@@ -1,6 +1,6 @@
 <template>
-    <div class="secondary white-text pa-3">
-        <v-row class="white--text d-flex px-3 justify-space-between">
+    <div class="fondo white-text pa-3">
+        <v-row class="fondo white--text d-flex px-3 justify-space-between">
             <p >01 oct. - 01 nov.</p>
             <p>Tendencias</p>
         </v-row>
@@ -32,5 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.fondo {
+  background-color: #004481;
+}
 </style>

@@ -31,7 +31,7 @@
       <v-text-field
         class="my-1 py-0 rounded-lg text"
         label="Solo"
-        placeholder="Placeholder"
+        placeholder="Buscar"
         color="indigo"
         solo
         dense

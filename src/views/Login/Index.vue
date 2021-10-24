@@ -1,5 +1,5 @@
 <template>
-    <div class="secondary view d-flex flex-column align-center">
+    <div class="fondo view d-flex flex-column align-center">
         <v-row class="justify-center">
             <v-img src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
             class="mt-7"
@@ -50,6 +50,9 @@ export default {
 .view{
     width: 100vw;
     height:100%;
+}
+.fondo {
+  background-color: #004481;
 }
 /* .v-col{
     height: 70vh;

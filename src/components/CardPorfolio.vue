@@ -1,6 +1,6 @@
  <template>
   <v-card
-    class="mx-auto rounded-lg py-0"
+    class="mx-auto rounded-lg"
     max-width="100%"
     height="75px"
   >
@@ -12,12 +12,12 @@
       >
       <v-img src="@/assets/logo-bbva.jpg"></v-img>
       </v-list-item-avatar>
-      <v-list-item-content class="text mt-2 px-3">
-        <p class="secondary--text font-weight-bold my-0 py-0">
+      <v-list-item-content class="text mt-2">
+        <p class="caption secondary--text font-weight-regular my-0 py-0">
           {{product.name}}
         </p>
         <div class="my-0 py-0">
-          <small class="black--text my-0 py-0">{{product.time}} meses</small>
+          <small class="caption black--text my-0 py-0">{{product.time}} meses</small>
         </div>
       </v-list-item-content>
       <v-btn @click="$router.push({ name: 'PortfolioSaving' })" class="mb-2"  color="secondary">Ver</v-btn>

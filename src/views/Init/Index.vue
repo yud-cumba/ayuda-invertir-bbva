@@ -7,7 +7,8 @@
                 {{items[selected].text}}
                 </p>
                 <v-row class="mt-2 mb-6">
-                    <v-btn v-for="(item, i) in items" :key="item.img" fab :class="`${i === selected ? 'secondary' : 'grey'} mx-1`"
+                    <v-btn v-for="(item, i) in items"
+                    :key="item.img" fab :class="`${i === selected ? 'secondary' : 'grey'} mx-1`"
                     @click="selected = i">
                     </v-btn>
                 </v-row>
@@ -15,7 +16,8 @@
             dark
             @click="$router.push({ name: 'Dreams'})"
                 small>Sueños cumplidos</v-btn>
-                <v-btn  @click="$router.push({ name: 'Advice'})" text color="grey" class="mt-2 text-caption text-capitalize">Ver acciones de Inversión</v-btn>
+                <v-btn  @click="$router.push({ name: 'Advice'})"
+                text color="grey" class="mt-2 text-caption text-capitalize">Ver acciones de Inversión</v-btn>
         </v-col>
     </div>
 </template>

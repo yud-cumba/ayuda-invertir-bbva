@@ -11,7 +11,7 @@
               <p class="range-p ">{{`${range[1]} %`}}</p>
             </template>
             </v-range-slider>
-             <p class="text-center"> $ {{percentage}}.00</p>
+             <p class="text-center text"> $ {{percentage}}.00</p>
     </div>
 </template>
 
@@ -36,5 +36,13 @@ export default {
 <style lang="scss" scoped>
 .range-p{
     width: 50px;
+}
+.text {
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1C1939;
 }
 </style>

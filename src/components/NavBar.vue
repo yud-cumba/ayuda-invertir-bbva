@@ -20,7 +20,7 @@
           active-class="blue--text text--blue"
         >
           <v-list-item to="/profile">
-            <v-list-item-title>Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-list-item-title>
+            <v-list-item-title>Ir por mis sueños</v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/copiers">

@@ -18,13 +18,13 @@ export default {
     sections: [
       {
         title: 'Te recomendamos a los Copy Investor',
-        description: 'Ellos son los mejores inversionistas que generan grandes ganancias',
+        description: 'Ellos son los mejores inversionistas que generan grandes ganancias.',
         img: 'recommend',
         go: 'Copiers',
       },
       {
         title: 'Inversión Automática',
-        description: 'Minimizamos tus riesgos y te aseguramos ganancías, programa tus inversiones y olvidate de lo demas',
+        description: 'Minimizamos tus riesgos y te aseguramos ganancias, programa tus inversiones y olvídate de lo demás.',
         img: 'auto',
         go: 'Loading',
       },

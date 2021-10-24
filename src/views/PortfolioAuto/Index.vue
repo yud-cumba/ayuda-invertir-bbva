@@ -1,15 +1,23 @@
 <template>
     <div>
-        PORTAFOLIO AUTOMATICO
+        <CardLearn/>
+        <ListProducts class="pa-3"/>
     </div>
 </template>
 
 <script>
-export default {
+import CardLearn from '../../components/CardLearn.vue';
+import ListProducts from './ListProducts.vue';
 
+export default {
+  components: { ListProducts, CardLearn },
+  created() {
+    this.$store.commit('SET_LAYOUT', 'main-layout');
+  },
 };
+
 </script>
 
-<style lang="scss" scoped>
+<style lang, ListProducts="scss" scoped>
 
 </style>

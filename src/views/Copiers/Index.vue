@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="mt-1">Tus especialistas de inversión</h3>
-    <h5 class="mb-4 grey--text">Tops en rentabilidad</h5>
+    <h5 class="grey--text">Tops en rentabilidad</h5>
     <ListTopCopiers/>
     <ListCopiers/>
   </div>

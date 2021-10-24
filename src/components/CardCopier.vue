@@ -14,7 +14,11 @@
         class="content d-flex flex-column text-center justify-items-center align-items-center"
       >
         <h5 class="name ma-1">{{dataCopier.name}} {{dataCopier.lastname}}</h5>
-        <p class="mx-2 py-1 risk">{{dataCopier.risk_level}}</p>
+        <p
+          :class="
+          [dataCopier.risk_level === 'A' ?
+        'riskA' : dataCopier.risk_level === 'M'?
+        'riskB': 'riskC', 'px-2 py-1']">{{dataCopier.risk_level}}</p>
         <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ dataCopier.profit }}%</p>
         <v-btn
           class="pa-2 caption text-capitalize"
@@ -58,10 +62,25 @@ export default {
 .card {
   border: 1px solid #3771b2;
 }
-.risk {
-  border: 2px solid #99eaf5;
+.riskA {
+  border: 2px solid red;
   border-radius: 5px;
-  color: #99eaf5;
+  color: red;
+  width: 28px;
+  font-size: 12px;
+}
+.riskC {
+  border: 2px solid rgb(6, 186, 196);
+  border-radius: 5px;
+  color: rgb(6, 186, 196);
+  width: 28px;
+  height: 38px;
+  font-size: 12px;
+}
+.riskB {
+  border: 2px solid #DED95F;
+  border-radius: 5px;
+  color: #DED95F;
   width: 28px;
   font-size: 12px;
 }

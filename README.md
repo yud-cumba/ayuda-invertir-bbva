@@ -10,33 +10,20 @@
   </h3>
 </div>
 
-## 🔥 Tabla de contenido
+## Propuesta de Solucion
 
-- [Contexto](#contexto)
-- [Vistas](#vistas)
-  - [Contruido con](#construido-con)
-- [Como usar](#como-usar)
-- [Organización y Planificación](#organización-y-planificación)
-- [Equipo de desarrollo](#equipo-de-desarrollo)
+Nuestra solución esta basada en crear una funcionalidad llamada Copy Investor, de tal manera, que cualquier persona, con o sin conocimientos en inversiones pueda copiar las posiciones de un inversor determinado (Copy Investor). El inversor ganara una comisiones por cada usuario que lo copie, o que invierta siguiendo sus copias.
 
-## Contexto
-## Vistas
+Adicionalmente, para usuario avanzados, podrán ellos mismos crear su propio portafolio clasificando las herramientas financieras a las que pueda acceder.
 
-<details>
-  <summary>💻 Versión Desktop</summary>
+## Descripción técnica de la solución
+Nuestra solución se basa en el desarrollo de una PWA (Progressive Web App)- Version Mobile, utilizando el framework front end Vue.js y Vuetify como libreria UI siguiendo una arquitectura serverless, utilizando DynamoDB para el manejo de base de datos.
 
-![screenshot]()
+Considerando el tiempo disponible para el desarrollo de la solución, hemos decidido realizar el reto con tecnologia PWA como un primer MVP. Nuestro primer objetivo es encontrar el product market fit entre la solución propuesta y el problema planteado.
 
-</details>
+#### Tecnologías que están utilizando (lenguajes, frameworks, bibliotecas, servicios en la nube).
 
-<details>
-  <summary>📱 Versión Mobile</summary>
-
-![screenshot]()
-<br>
-![screenshot](https://i.imgur.com/ZPgD3xt.png)
-
-</details>
+Vue, Node, DynamoDB, S3, Github, Aws
 
 ### Stack tecnológico
 
@@ -45,11 +32,6 @@
 - [DynamoDb](https://aws.amazon.com/es/)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Aws S3](https://aws.amazon.com/es/)
-## Como usar
-
-## Organización y Planificación
-
-
 ## Equipo
 
 Construido por :

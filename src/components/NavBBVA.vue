@@ -19,20 +19,16 @@
           v-model="group"
           active-class="deep-purple--text text--accent-4"
         >
-          <v-list-item>
-            <v-list-item-title>Foo</v-list-item-title>
+          <v-list-item to="/profile" class="primary--text">
+            <v-list-item-title class="primary--text">Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-list-item-title>
           </v-list-item>
 
-          <v-list-item>
-            <v-list-item-title>Bar</v-list-item-title>
+          <v-list-item to="/copiers">
+            <v-list-item-title >Copy Investor</v-list-item-title>
           </v-list-item>
 
-          <v-list-item>
-            <v-list-item-title>Fizz</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-title>Buzz</v-list-item-title>
+          <v-list-item to="/portfolio">
+            <v-list-item-title>Inversión Automica</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

@@ -11,11 +11,11 @@
                     @click="selected = i">
                     </v-btn>
                 </v-row>
-            <v-btn  class="secondary pa-4 white text-capitalize rounded-lg"
+            <v-btn  class="secondary pa-5 white text-capitalize rounded-lg"
             dark
             @click="$router.push({ name: 'Dreams'})"
                 small>Sueños cumplidos</v-btn>
-                <v-btn text color="grey" class="mt-2 text-caption text-capitalize">Ver acciones de Inverisón</v-btn>
+                <v-btn text color="grey" class="mt-2 text-caption text-capitalize">Ver acciones de Inversión</v-btn>
         </v-col>
     </div>
 </template>

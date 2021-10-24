@@ -45,7 +45,7 @@ export default {
       },
       {
         title: 'Moderado',
-        img: '',
+        src: '@/assets/conservative-profile.png',
         save: 12000,
         gain: 789.6,
         time: 3,

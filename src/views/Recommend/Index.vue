@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-8">
     <v-row class="d-flex flex-wrap justify-center">
     <CardSection v-for="section in sections" :section="section" :key="section.title"/>
      </v-row>

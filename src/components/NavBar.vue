@@ -5,7 +5,7 @@
         <v-icon>mdi-chevron-left</v-icon><small>atrás</small>
       </v-btn>
       <v-spacer></v-spacer>
-      <h6 class="mt-3 font-weight-regular">Titulo</h6>
+      <h6 class="mt-3 font-weight-regular">BBVA</h6>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon
         class="secondary--text"

@@ -12,6 +12,8 @@ const routerOptions = [
   { path: '/news', name: 'News' },
   { path: '/init', name: 'Init' },
   { path: '/profile', name: 'Profile' },
+  { path: '/invest', name: 'Invest' },
+  { path: '/trading/id', name: 'Trading' },
   { path: '/dreams', name: 'Dreams' },
   { path: '/BBVAHome', name: 'BBVAHome' },
   { path: '/advice', name: 'Advice' },

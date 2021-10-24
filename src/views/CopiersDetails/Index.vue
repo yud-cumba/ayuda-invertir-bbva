@@ -21,8 +21,8 @@
             color="secondary"
             @click="
               $router.push({
-                name: 'CopiersDetails',
-                params: { id: copier.copy_bankingId },
+                name: 'Invest',
+                params: { id: copier.copy_bankingId, copier},
               })
             "
             >Copiar
@@ -50,6 +50,19 @@ export default {
   props: {
     copier: {
       type: Object,
+      default: () => ({
+        copy_bankingId: 'COPYBANCKING001',
+        created: '2021/01/01',
+        doc: '41987332',
+        follower: '940',
+        img_profile: 'women/26.jpg',
+        lastname: 'Delgado',
+        name: 'Ybed',
+        portfolioId: 'PORTFOLIO002',
+        profit: 74.8,
+        risk_level: 'M',
+        userId: 'BBVA008INVERTITR',
+      }),
     },
   },
   data() {

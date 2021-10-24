@@ -3,7 +3,7 @@
     flat
     outlined
     width="300px"
-    height="230px"
+    height="235px"
     class="card mx-4 my-10 py-2 px-4 rounded-xl d-flex flex-column align-center"
     :disabled="disabled"
     @click="goForm"
@@ -25,14 +25,14 @@
     </v-row>
     <v-row
       style="position: relative"
-      class="d-flex flex-column justify-center align-center text-wrap mt-8"
+      class="d-flex flex-column justify-center align-center text-wrap my-10"
     >
       <h3 class="mt-2">{{ section.title }}</h3>
       <p class="subtitle-2 font-weight-regular mt-1">
         {{ section.description }}
       </p>
       <v-checkbox
-        class="rounded-circle"
+        class="rounded-circle my-0 py-0"
         v-model="check"
         color="secondary"
         :value="check"

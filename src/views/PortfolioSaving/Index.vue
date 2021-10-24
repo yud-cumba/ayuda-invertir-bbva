@@ -41,16 +41,10 @@
     </v-card>
     </v-row>
       <v-row class="d-flex justify-center my-8">
-    <v-btn
-      color="secondary"
-      width="82%"
-      @click="
-      $router.push({
-        name: '',
-      })"
-      >
-      Invertir ahora
-    </v-btn>
+ <v-btn  class="secondary pa-5 white text-capitalize rounded-lg"
+            dark
+            @click="show =true"
+                small>Invertir ahora<v-icon>mdi-party-popper</v-icon></v-btn>
   </v-row>
   </div>
 </template>
@@ -62,6 +56,9 @@ export default {
   components: {
     Saving,
   },
+  data: () => ({
+    show: false,
+  }),
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');
   },

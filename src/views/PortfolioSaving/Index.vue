@@ -7,7 +7,7 @@
         <h5>Periodo de tiempo</h5>
       </v-col>
       <v-col>
-        <h5 class="teal--text">230 SOL</h5>
+        <h5 class="teal--text">€ 230</h5>
         <small>3 meses</small>
       </v-col>
     </v-row>

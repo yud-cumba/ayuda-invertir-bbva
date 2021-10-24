@@ -24,17 +24,17 @@ export default {
     items: [{
       icon: 'mdi-bank',
       title: 'Retiros de dinero',
-      money: '$1550.00',
+      money: '€1550.00',
     },
     {
       icon: 'mdi-currency-usd',
       title: 'Pagos financieros',
-      money: '$250.00',
+      money: '€250.00',
     },
     {
       icon: 'mdi-dots-square',
       title: 'Otros',
-      money: '$250.00',
+      money: '€250.00',
     }],
 
   }),

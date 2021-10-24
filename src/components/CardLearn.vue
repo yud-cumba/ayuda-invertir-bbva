@@ -10,7 +10,7 @@
              {{detail}}</v-card-subtitle>
 
             <v-card-actions>
-              <v-btn  class="secondary text-capitalize" width="200"
+              <v-btn  class="secondary text-capitalize rounded-lg" width="120"
             dark
             @click="action"
                 small>{{btnText}}</v-btn>

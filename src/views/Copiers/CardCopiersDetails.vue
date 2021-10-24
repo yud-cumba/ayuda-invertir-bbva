@@ -8,21 +8,21 @@
         tile
         color="grey"
       >
-        <v-img cover src="https://randomuser.me/api/portraits/men/47.jpg"></v-img>
+        <v-img cover :src="`https://randomuser.me/api/portraits/${dataCopier.img_profile}`"></v-img>
       </v-list-item-avatar>
       <v-list-item-content
         class="content d-flex flex-column text-center justify-items-center align-items-center"
       >
-        <h5 class="name ma-1">Jeff Madrid</h5>
-        <p class="mx-2 py-1 risk">{{copier.risk_level}}</p>
-        <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ copier.profit }}%</p>
+        <h5 class="name ma-1">{{dataCopier.name}} {{dataCopier.lastname}}</h5>
+        <p class="mx-2 py-1 risk">{{dataCopier.risk_level}}</p>
+        <p class="text teal--text subtitle-1 mx-1 my-0 py-0">{{ dataCopier.profit }}%</p>
         <v-btn
           class="pa-2 caption text-capitalize"
           color="secondary"
           @click="
             $router.push({
               name: 'CopiersDetails',
-              params: { id: copier.copy_bankingId },
+              params: { id: dataCopier.copy_bankingId },
             })
           "
           >Ver
@@ -33,12 +33,23 @@
 </template>
 
 <script>
+import users from '@/mocks/users.json';
 
 export default {
   props: {
     copier: {
       type: Object,
     },
+  },
+  data() {
+    return {
+      dataCopier: {},
+    };
+  },
+  created() {
+    console.log(users);
+    const [user] = users.filter(({ userId }) => userId === this.copier.userId);
+    this.dataCopier = { ...user, ...this.copier };
   },
 };
 </script>

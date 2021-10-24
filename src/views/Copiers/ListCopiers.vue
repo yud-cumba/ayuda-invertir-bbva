@@ -1,6 +1,6 @@
 <template>
   <div class="mt-5">
-    <v-col class="mx-0 px-0 py-1" v-for="copybanker in copybankers" :key="copybanker.copy_bankingId">
+    <v-col class="mx-0 px-0 py-1" v-for="copybanker in copybankers.slice(4, 9)" :key="copybanker.userId">
       <CardCopiersDetails :copier="copybanker" />
     </v-col>
   </div>

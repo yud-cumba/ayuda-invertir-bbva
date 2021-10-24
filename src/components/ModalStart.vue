@@ -43,11 +43,10 @@ export default {
     action: {
       type: Function,
     },
-  },
-  data() {
-    return {
-      dialog: true,
-    };
+    dialog: {
+      type: Boolean,
+      default: true,
+    },
   },
 };
 </script>

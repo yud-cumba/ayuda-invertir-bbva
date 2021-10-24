@@ -165,20 +165,22 @@
   </v-card>
   <v-row class="d-flex justify-center my-8">
     <v-btn
-      color="secondary"
-      width="82%"
-      @click="
-      $router.push({
-        name: 'Trading',
-      })"
+      class="secondary pa-5 white text-capitalize rounded-lg"
+            dark
+      @click="show=true"
       >
       Comprar
     </v-btn>
   </v-row>
+  <ModalStart title="Felicidades!"
+        description="Haz realizado exitosamente tu inversión, que tus sueños no tengan límites"
+         textBtn="Cerrar" :action="close" :dialog="show"/>
   </div>
 </template>
 
 <script>
+import ModalStart from '@/components/ModalStart.vue';
+
 export default {
   props: {
     copier: {
@@ -187,6 +189,7 @@ export default {
   },
   data() {
     return {
+      show: false,
       bitcoin: 0,
       eth: 0,
       ftt: 0,
@@ -194,8 +197,14 @@ export default {
     };
   },
   created() {
-    console.log(this.$props);
     this.$store.commit('SET_LAYOUT', 'main-layout');
+  },
+  methods: {
+    close() {
+      this.$router.push({
+        name: 'Init',
+      });
+    },
   },
   watch: {
     invest() {
@@ -203,6 +212,9 @@ export default {
       this.eth = Math.round(this.invest * 0.3);
       this.ftt = Math.round(this.invest * 0.1);
     },
+  },
+  components: {
+    ModalStart,
   },
 };
 </script>

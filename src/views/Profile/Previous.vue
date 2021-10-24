@@ -30,7 +30,7 @@ export default {
       this.$router.push({ name: 'NewsTops' });
     },
     noOption() {
-      this.$router.push({ name: 'Recommend' });
+      this.$router.push({ name: 'Advice' });
     },
   },
 };

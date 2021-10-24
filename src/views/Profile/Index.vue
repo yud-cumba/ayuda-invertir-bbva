@@ -3,7 +3,7 @@
     <v-img width="200" src="@/assets/saving.jpeg"></v-img>
     <span class="text-center mt-2">Tus ahorros son:</span>
     <h1 class="text-center">$12,785</h1>
-    <p class="font-weight-bold">Te contamos de nuestros tipos de inversiones</p>
+    <p class="mx-2 text-center font-weight-bold">Te contamos de nuestros tipos de inversiones</p>
     <div class="container">
       <v-card v-for="type in types" :key="type.title"
       width="150" class="elevation-0 mx-4 d-flex flex-column align-center justify-center" height="200">
@@ -14,10 +14,13 @@
         <h4> {{type.time}} meses</h4>
       </v-card>
 </div>
+<Previous/>
   </div>
 </template>
 
 <script>
+import Previous from './Previous.vue';
+
 export default {
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');
@@ -47,6 +50,9 @@ export default {
       },
     ],
   }),
+  components: {
+    Previous,
+  },
 };
 </script>
 

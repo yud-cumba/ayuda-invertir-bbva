@@ -46,19 +46,31 @@
             @click="show =true"
                 small>Invertir ahora<v-icon>mdi-party-popper</v-icon></v-btn>
   </v-row>
+   <ModalStart title="Felicidades!"
+        description="Haz realizado exitosamente tu inversión, que tus sueños no tengan límites"
+         textBtn="Cerrar" :action="close" :dialog="show"/>
   </div>
 </template>
 
 <script>
 import Saving from '@/components/Saving.vue';
+import ModalStart from '../../components/ModalStart.vue';
 
 export default {
   components: {
     Saving,
+    ModalStart,
   },
   data: () => ({
     show: false,
   }),
+  methods: {
+    close() {
+      this.$router.push({
+        name: 'Init',
+      });
+    },
+  },
   created() {
     this.$store.commit('SET_LAYOUT', 'main-layout');
   },

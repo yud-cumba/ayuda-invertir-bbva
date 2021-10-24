@@ -7,11 +7,12 @@
     >
       <v-radio
         label="Si"
-        value="radio-1"
+        @click="yesOption"
+
       ></v-radio>
       <v-radio
         label="No"
-        value="radio-2"
+        @click="noOption"
       ></v-radio>
     </v-radio-group>
     </v-card>
@@ -19,7 +20,19 @@
 
 <script>
 export default {
-
+  data() {
+    return {
+      row: null,
+    };
+  },
+  methods: {
+    yesOption() {
+      alert('yes');
+    },
+    noOption() {
+      alert('no');
+    },
+  },
 };
 </script>
 

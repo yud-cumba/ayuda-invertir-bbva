@@ -12,6 +12,7 @@
       <v-text-field
         class="py-0 my-0 rounded-lg text"
         label="Buscar"
+        v-model="search"
         placeholder="Buscar"
         color="indigo"
         solo
@@ -34,6 +35,7 @@ export default {
     selected: 'Todos',
     products: productsMocks,
     items: ['Todos', 'Fondos', 'Criptos', 'Acciones'],
+    search: '',
   }),
   components: {
     CardProduct,
@@ -41,6 +43,9 @@ export default {
   watch: {
     selected() {
       this.products = this.selected === 'Todos' ? productsMocks : productsMocks.filter((e) => e.type === this.selected);
+    },
+    search() {
+      this.products = this.search === '' ? productsMocks : productsMocks.filter((e) => e.name.includes(this.search));
     },
   },
 };

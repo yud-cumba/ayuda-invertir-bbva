@@ -10,7 +10,7 @@
   </h3>
 </div>
 
-## Propuesta de Solucion
+## Propuesta de Solución
 
 Nuestra solución esta basada en crear una funcionalidad llamada Copy Investor, de tal manera, que cualquier persona, con o sin conocimientos en inversiones pueda copiar las posiciones de un inversor determinado (Copy Investor). El inversor ganara una comisiones por cada usuario que lo copie, o que invierta siguiendo sus copias.
 
@@ -21,6 +21,7 @@ Nuestra solución se basa en el desarrollo de una PWA (Progressive Web App)- Ver
 
 Considerando el tiempo disponible para el desarrollo de la solución, hemos decidido realizar el reto con tecnologia PWA como un primer MVP. Nuestro primer objetivo es encontrar el product market fit entre la solución propuesta y el problema planteado.
 
+- Mira nuestra solución [aquí](http://copy-investor.s3-website-sa-east-1.amazonaws.com/)
 #### Tecnologías que están utilizando (lenguajes, frameworks, bibliotecas, servicios en la nube).
 
 Vue, Node, DynamoDB, S3, Github, Aws
@@ -32,6 +33,8 @@ Vue, Node, DynamoDB, S3, Github, Aws
 - [DynamoDb](https://aws.amazon.com/es/)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Aws S3](https://aws.amazon.com/es/)
+- [Figma](https://www.figma.com/proto/SPjQ5QJDo1QdrGGtWTVr6m/Proyecto-Hackathon-BBVA?page-id=0%3A1&node-id=10%3A229&viewport=241%2C48%2C1&scaling=scale-down&starting-point-node-id=10%3A229
+)
 ## Equipo
 
 Construido por :

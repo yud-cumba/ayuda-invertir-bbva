@@ -1,6 +1,6 @@
  <template>
   <v-card
-    class="mx-auto rounded-lg py-5"
+    class="mx-auto rounded-lg py-1"
     max-width="100%"
     height="75px"
   >

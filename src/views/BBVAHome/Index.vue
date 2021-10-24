@@ -10,18 +10,24 @@
         :action="goOther"
         detail="Ahora con Mis Presupuestos puedes ordenar tus gastos de forma segura" btnText="Crear presupuesto"/>
         <br>
+        <ModalStart />
     </div>
 </template>
 
 <script>
 import CardLearn from '../../components/CardLearn.vue';
+import ModalStart from '../../components/ModalStart.vue';
 import Expenses from './Expenses.vue';
 import ExpensesDetail from './ExpensesDetail.vue';
 import Resume from './Resume.vue';
 
 export default {
   components: {
-    Resume, Expenses, ExpensesDetail, CardLearn,
+    Resume,
+    Expenses,
+    ExpensesDetail,
+    CardLearn,
+    ModalStart,
   },
   methods: {
     goOther() {

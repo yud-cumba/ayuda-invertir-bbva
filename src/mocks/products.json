@@ -6,7 +6,7 @@
         "profit": 9.77,
         "risk_level": "1",
         "img": "BTC",
-        "type": "criptomonedas"
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT002",
@@ -15,7 +15,7 @@
         "profit": -21.00,
         "risk_level": "10",
         "img": "ETH",
-        "type": "criptomonedas"
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT003",
@@ -24,7 +24,7 @@
         "profit": 10.15,
         "risk_level": "8",
         "img": "FTT",
-        "type": "criptomonedas"
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT004",
@@ -33,7 +33,7 @@
         "profit": -16.31,
         "risk_level": "9",
         "img": "HBAR",
-        "type": "criptomonedas"
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT005",
@@ -42,7 +42,7 @@
         "profit": 0.07,
         "risk_level": "2",
         "img": "TEATHER",
-        "type": "criptomonedas"
+        "type": "Criptos"
     },
     {
         "productId": "PRODUCT006",
@@ -50,7 +50,7 @@
         "profit": 9.77,
         "risk_level": "1",
         "img": "nio",
-        "type": "acciones"
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT007",
@@ -58,7 +58,7 @@
         "profit": -21.00,
         "risk_level": "10",
         "img": "plrt",
-        "type": "acciones"
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT008",
@@ -66,7 +66,7 @@
         "profit": 10.15,
         "risk_level": "8",
         "img": "sumo",
-        "type": "acciones"
+        "type": "Acciones"
     },
     {
         "productId": "PRODUCT009",
@@ -74,7 +74,7 @@
         "profit": -16.31,
         "risk_level": "9",
         "img": "fondo",
-        "type": "fondos"
+        "type": "Fondos"
     },
     {
         "productId": "PRODUCT010",
@@ -82,7 +82,7 @@
         "profit": 0.07,
         "risk_level": "2",
         "img": "fondo",
-        "type": "fondos"
+        "type": "Fondos"
     },
     {
         "productId": "PRODUCT011",
@@ -90,6 +90,6 @@
         "profit": -16.31,
         "risk_level": "9",
         "img": "fondo",
-        "type": "fondos"
+        "type": "Fondos"
     }
 ]

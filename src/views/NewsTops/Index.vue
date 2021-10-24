@@ -19,25 +19,6 @@
     <v-tabs-items v-model="tab">
       <v-tab-item
       >
-      <v-select
-        class="mt-2 mb-0 py-1 rounded-lg text"
-        :items="items"
-        :value="items[0]"
-        color="indigo darken-2"
-        solo
-        dense
-        outlined
-      ></v-select>
-      <v-text-field
-        class="my-1 py-0 rounded-lg text"
-        label="Solo"
-        placeholder="Buscar"
-        color="indigo"
-        solo
-        dense
-        outlined
-        prepend-inner-icon="mdi-magnify"
-      ></v-text-field>
       <Tops class="mt-2"/>
       </v-tab-item>
       <v-tab-item
@@ -60,7 +41,6 @@ export default {
   data: () => ({
     tab: null,
     header: ['Top productos', 'Noticias'],
-    items: ['Todos', 'Fondos', 'Criptos', 'Acciones'],
   }),
   components: {
     CardLearn,

@@ -17,7 +17,7 @@
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="primary--text text--white"
         >
           <v-list-item to="/profile" class="primary--text">
             <v-list-item-title class="primary--text">Ir por mis sueños <v-icon>mdi-party-popper</v-icon></v-list-item-title>

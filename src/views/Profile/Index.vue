@@ -6,7 +6,7 @@
     <p class="mx-2 text-center font-weight-bold">Te contamos de nuestros tipos de inversiones</p>
     <div class="container">
       <v-card v-for="type in types" :key="type.title"
-      width="200" class="elevation-0 mx-2 d-flex flex-column align-center justify-center" height="200">
+      width="200" class="elevation-0 mx-3 d-flex flex-column align-center justify-center" height="200">
       <h5>{{type.title}}</h5>
         <v-img width="130" max-height="130" src="@/assets/saving.jpeg" class="rounded-lg"></v-img>
         <h5>Tu ahorro: {{type.save}}</h5>

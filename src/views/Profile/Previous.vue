@@ -1,5 +1,5 @@
 <template>
-    <v-card outlined class="pa-12 d-flex flex-column rounded-lg align-center justify-center">
+    <v-card outlined class="pa-12 mt-3 d-flex flex-column rounded-lg align-center justify-center">
         <h3 class="text-center">Has invertido anteriormente?</h3>
         <v-radio-group
       v-model="row"
@@ -27,10 +27,10 @@ export default {
   },
   methods: {
     yesOption() {
-      alert('yes');
+      this.$router.push({ name: 'NewsTops' });
     },
     noOption() {
-      alert('no');
+      this.$router.push({ name: 'Recommend' });
     },
   },
 };
@@ -38,6 +38,6 @@ export default {
 
 <style lang="scss" scoped>
 h3{
-    width: 200px;
+    width: 250px;
 }
 </style>

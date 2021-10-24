@@ -8,14 +8,14 @@
        class="flat mx-2 d-flex flex-column align-center justify-center" height="200" width="300"
       >
       <br><br><br><br><br>
-        <h4>Ahorro</h4>
-        <h4>Ganancia</h4>
-        <h4>Tiempo</h4>
+        <small>Ahorro</small>
+        <small>Ganancia</small>
+        <small>Tiempo</small>
      </v-card>
       <v-card v-for="type in types" :key="type.title"
       width="150" class="elevation-0 mx-4 d-flex flex-column align-center justify-center" height="200">
       <h4>{{type.title}}</h4>
-        <v-img width="100" max-height="100" :src="require(`@/assets/${type.img}.png`)" class="rounded-lg"></v-img>
+        <v-img width="80" max-height="80" :src="require(`@/assets/${type.img}.png`)" class="rounded-lg"></v-img>
         <h4>{{type.save}}</h4>
         <h4 class="teal--text">{{type.gain}}</h4>
         <h4> {{type.time}} meses</h4>

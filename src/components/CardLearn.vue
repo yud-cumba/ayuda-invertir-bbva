@@ -12,7 +12,7 @@
             <v-card-actions>
               <v-btn  class="secondary text-capitalize rounded-lg" width="130"
             dark
-            @click="action"
+            @click="$router.push({ name: 'Copiers' });"
                 small>{{btnText}}</v-btn>
             </v-card-actions>
           </v-card>
